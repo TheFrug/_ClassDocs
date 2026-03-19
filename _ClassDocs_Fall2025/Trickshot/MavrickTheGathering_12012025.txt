@@ -1,0 +1,51 @@
+Trickshot MVP - Due December 11th (probably)
+
+2-3 Work sessions Hybrid before 11th
+Wednesday - 12/03/2025: Evening
+_____
+_____
+
+App homescreen/main menu
+- Play Button -> Trickshot
+- Gallery/Locker room -> Card Collection Manager
+- Daily card to purchase (with in-game currency)
+- Settings
+- Leaderboard
+
+Trickshot Cards
+- Five detailed, tested, and fun player cards
+- One for each preferred position
+- Each should have multiple levels and unlock new cool cards
+
+Final Trickshot Card Design
+Frontside
+- Player art
+- Player name
+- XP bar/level
+- Preferred Position
+Backside
+- Jersey Number
+
+Card Collection Manager
+- See all cards in grid with pages
+- Duplicates display separateley
+- Train Cards with Basketball minigame
+- Click on player card -> Detailed grid view of action cards + Ability to re-equip
+
+Basketball Minigame
+- Each real-life day, players get ~3 Dribble Tokens
+- Tokens can refresh with play/leveling a player card to max
+- For each one, they can do the Basketball minigame with one of their cards.
+- If a Mavericks game is happening, player can dribble infintely to have something to do while
+
+Functioning Tutorial
+- Michael writes it up (after much playtesting)
+- Five rounds of mostly scripted Trickshot
+- After each round gain a card/level up to introduce progression
+
+Stretch Goal:
+- Sandbox Mode
+- Pack opening
+- Account menu
+- Re-equipping Action cards
+- Action Card leveling up

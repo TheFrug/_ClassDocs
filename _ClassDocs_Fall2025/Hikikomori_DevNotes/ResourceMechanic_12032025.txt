@@ -1,0 +1,23 @@
+Alrighty so we are working on Hiki. Our current goal is to get resourceModification working completely. 
+
+Description: Hikikomori runs on a few important resources: 
+Note: Behaviors should either be repeatable or not, and if not, they can only be used once per day, resetting with each day transition. 
+
+//Current Resource Mechanics//
+- Spoons are the primary resource expended to make decisions. Hiki starts each day with a random range of spoons, and many behaviors cost spoons to complete. 
+- The 'Hope Meter' is this game's experience system, with a threshold to 'level up' Hiki's hope. As Hiki gains hope levels, his daily spoon allotment (which is always a random range of min and max values) can expand, and he unlocks new behaviors. 
+- Hiki also has a 'Stress meter', which accumulates as Hiki makes decisions that do not alleviate stress. Stress can be alleviated by selecting behaviors that decrease it. 
+--If Stress reaches the maximum, Hiki shuts down, and begins doomscrolling until his stress bar hits 0 again. During this time, Hiki's Hope meter also drains at an even pace until the Stress is all gone, as a sort of setback system for overworking Hiki without downtime. 
+
+//Old Resource Mechanics// 
+- Game currently has a clock, but I am unsure how to integrate it into this system, so for now we can ignore it. - There is also a defunct 'Hunger' mechanic, which has since been removed. I may replace this with a 'hungry' status condition or something, but for now we can ignore it. 
+- Cash is also a thing, but shouldn't be
+
+//Resource Modification Methods//
+There will be two primary ways to modify resources in this game: Currently, the one way to modify resources is via the behavior system, which is the primary gameplay of Project Hiki. Players choose between Behaviors and what order to do them in. When they select a behavior, their choices affect resources and cause Thoughts to immediately and automatically play in ThoughtBubbleView (You know what that is by now). 
+If the Thought played is an Internal Dialogue, which simulates internal conversations with parts OR decisions made while completing a task, the resources modified are calculated during the conversation and impact resources only once the conversation is over. These conversations are turn-based, and might have options within them, for example to go above and beyond a task's requirements, expending an extra spoon to gain extra hope. 
+
+Currently, our resources are visually communicated in a few ways. Hope and Stress are both meters at the top of the screen, with the Hope level being a number to the left of its bar. Spoons are shown as a drawer that can be pulled out, with the number of spoon sprites within meant to exactly match the amount of resources the player has. 
+The final and perhaps most important element of resource modification is the Family Bond mechanic. Hiki's internal psyche is made up of four distinct family members, each with a different personality and level of 'bond' with Hiki. The game's narrative is about Hiki connecting with these parts of himself via the internal 'Self', who is essentially the player character. When players make Behvaior decisions or decisions within INternal Dialogues, these decisions can add bond to the Family members via Yarn command. As their bond increases, the family members' identity becomes more pronounced, their thoughtBubble's color becomes more saturated, and eventually, the player can even learn their name.
+
+Hiki Self Note: Not changing text color properly. Should happen in same place that bubble text is called.

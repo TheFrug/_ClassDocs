@@ -1,0 +1,46 @@
+Behavior System Bugs
+
+--STUFF TO ADD--
+
+- Shutdown mode: Stress and Hope decrease at similar rates, but Hope is a small number stat, while Stress is always a percentage out of 100%, so they need to convert.
+Scripts: BehaviorManager, ResourceManager
+
+- FamilyManager: Font reveal should be gated behind bond, same with nameRevealed. I want to set a bond value at which these things become revealed, and if the part is below that level, the name is not revealed, and the font is the default font, shared across parts.
+
+- ClockManager Refactor:
+-- needs to move forward ONLY when behaviors are chosen
+-- Time moves forward one minute at a time quickly, at the same time/coroutine as the resources are modified.
+
+- Behavior Unlocks
+-- UnlockBehavior flips a boolean we add to each BehaviorIconUI's list of behaviors: Unlocked. Once Unlocked, it renders when the player clicks one of the BehaviorIcons
+--UnlockIcon: New method that makes a BehaviorIconUI fade in and become enabled, allowing the player to use it and access its BehaviorChoice options.
+ 
+
+- Level up screen
+-- On level up, there should be a UI panel that appears and has an 'X' and tells player what they gained on Level up. These can be so faked, like literally create a panel with all the text and shit already and just fade it in and then back out. 
+
+- Shutdown mode is basically unfinished. 
+-- I can still select things. How about we create a black layer that goes over the viewport when input is meant to be disabled? This can be controlled by its own manager, and we can give it a few methods we can call to have it fade in slightly and block interaction via blocksRaycasts=true, or have it fade to/from black completely for aesthetics, such as when Hiki ends the day by sleeping in his bed.
+
+--FIXED--
+- ResourceManager: Stress and Hope Bars not lerping, just jumping. I want them to gain and then slow
+
+- The Room Camera buttons are still clickable while BehaviorChoices are being presented. If the player clicks one, BehaviorIconUI instances for other rooms become visible, allowing the player to open more BehaviorChoices. This is pretty buggy. 
+
+- Clicking a BehaviorIconUI should make it impossible to open other BehaviorIconUI instances, as well as locking the camera to that room until the BehaviorChoices aren't visible anymore.
+
+- When BehaviorChoices are open, I can select multiple, bringing up multiple SpoonPanels. A maximum of ONE SpoonPanel should be visible at any given time.
+
+- CameraControl's buttons should change color to reflect which room is currently being shown. The current room should be tinted green, while the other rooms are their normal color.
+
+- Camera Control adjustment: Close tab once Camera button has been clicked.
+
+- Spoon Drawer adjustment: Close tab once 'Do the Thing' has been clicked. Maybe just make it an instance?
+
+- ResourceManager: Hope bar not yet gaining level
+
+- Behavior: Daily vs repeatable tasks
+-- Should prevent the 'Select' button from working when the task was already done today.
+
+- FamilyManager font color/style changes not yet integrated.
+Scripts: ThoughtBubble, ThoughtBubbleManager, FamilyManager

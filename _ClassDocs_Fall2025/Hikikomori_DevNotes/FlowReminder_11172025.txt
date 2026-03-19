@@ -1,0 +1,12 @@
+Reminder of flow:
+
+Scene has multiple BehaviorIconUI instances. These fade in/out based on what room is being viewed. When one is clicked, they all fade out, camera zooms in, and BehaviorChoices spawn in, one for each Behavior scriptable object in BehaviorIconUI's list.
+
+When the player clicks the 'Select' button, IF that BehaviorChoice has a spoons cost,  a SpoonPanel slides out from behind the BehaviorChoice in a direction that will allow the panel to be viewable, either to the left or right of the grid parent object that houses the BehaviorChoices.
+Along with this SpoonPanel, there is a cancel button to close the panel. Inside the panel, there is a single SpoonSlot, which the player can drop spoons from their spoon drawer in. If they do, they fill up that SpoonSlot's insertedSpoons amount, and once it is equal to the requiredSpoons amount, The behavior actually starts.
+
+A behavior starting consists of a few things:
+1. Based on if the behavior is of type oneShot or Scene (however we define that), the thought tied to the behavior runs through ThoughtBubbleView. This will either run automatically, simulating the flow of random thoughts, or it will lead to a turn-based conversation scene where the player can make choices that impact the result of the conversation.
+
+If one shot, a progress bar fills quickly and then resources are subtracted
+If scene, the ThoughtBubbleView conversation must complete before resources are extracted. 

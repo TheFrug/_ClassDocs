@@ -1,0 +1,72 @@
+Paper Two Grading
+
+*Alanis Chema - Half-Life
+Goal: Create a shooter with a compelling narrative, not just a "shooting gallery"
+Features: Environmental Storytelling, Scripted Sequences, Dynamic AI
+100 - Maybe cite Doom and Quake? Other than that brilliant work.
+
+*Miguel Kalen Mungcal Alarcon - Metal Gear Solid
+Goal: Create an immersive and cinematic experience.
+Features: Camera Angles, Custcenes, Codec
+100 - Excellent
+
+*Simon An - Mega Man X
+Goal: Evolve the Mega Man Franchise in response to newer hardware
+Features: Dash+Wall jump, Sound Design, Visual+Narrative (kind of two things)
+94
+Typo: 'Than every could on the NES'
+-3 I caught a few typos, particularly in your third body paragraph. 
+
+-3 I think your third body paragraph is stretched thin talking about updated visuals and the new narrative elements in the same space, when these are two different features. I would have focused on the visuals, such as how the SNES's power allowed for stages to have different visuals depending on what order the player completes them in. This would also bridge into your point about the game's hightened narrative compared to the NES Mega Man games. 
+
+*Antonio Andrade - Earthbound
+Goal:
+Features: Art Style, Witty humor, Satisfying progression
+84
+Factual error: lists Legend of Zelda as a franchise spawned on the SNES
+
+This paper is somewhat unfocused. There is a lot of describing Earthbound and not a lot of tying those descriptions back into an argument about developer intent. 
+Your Citation about Toby Fox discussing Earthbound being a main inspiration for Undertale is missing a time-stamp, meaning I have to scrub through a two-hour video to find the specific clip you are talking about when you could have quoted his words directly. 
+
+*Evelyn Aviles - Resident Evil
+Goal: ????? Be a survival horror game?
+Features: Puzzles, limited inventory, navigating mechanics
+95
+-5 Your developer goal is not clearly stated ever, you just launch into the three features you want to analyze. 
+Your analysis of the game's features works well, as well as your inspiration section. 
+
+*Saif Babar - Metal Gear Solid
+Goal: Do cool stuff in 3D Kojima couldn't do before
+Features: Interesting Mechanics, enemy design, cinematic storytelling
+84
+-1 Citation about developer intent is missing an in-text citation.
+-5 Citation about how Metal Gear inspired Batman is completely missing. 
+-10 Your second feature, enemy design, is not explored in a body paragraph. Your body paragraphs thoroughly explain the game's interesting stealth mechanics (referred vaguely in the intro paragarph as 'interesting mechanics') and the game's cinematic storytelling, but you don't discuss the enemy design. 
+
+*Raquel Baca - Barbie Fashion Designer CD-ROM
+Goal: Get young girls into computer games. 
+Features: CG Interface, Printing Designs, Open-Ended Creativity
+-5 Citation about how Barbie Fashion Designer inspired other games like Love Nikki - Dress UP Queen is missing. 
+Other than that, FANTSTIC paper! This was a great analysis of a game with respect to its historical context, and I thoroughly enjoyed learning about this game from your writing!
+
+*Camden Baldwin - Half-Life
+Goal: Create a world that felt alive and had story
+Features: Interactivity, narrative, constant action
+98
+-1 Italicize game titles like Doom and Quake
+-1 You do have a citation about Abiotic Factor, but it is poorly contextualized, as you fail to mention that Keene's wonders are in reference to Half-Life's opening tram ride.
+
+*Karson Baraka - PaRappa the Rapper
+Goal: Create a game about rap and how music affects gameplay
+Features: Rhythm game, Art style, Learning Curve
+92
+-3 It is not clear in your second supporting feature paragraph how PaRappa's art style contributed to the developer's goal of creating a game about rap. 	
+-5 Citation from a developer inspired by PaRappa the Rapper is missing.
+
+*Daniel Blank - Pokemon Yellow
+Goal: Create a turn-based RPG where you collect party members through combat
+Features: Evolution, Link Cable Connection, mascot Pikachu
+99
+-1 Italicize game titles
+
+

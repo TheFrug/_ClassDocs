@@ -1,0 +1,16 @@
+Ok currently, our behavior system uses QueueBehavior(Behavior), which is great and all, but its mixed up in the deprecated tick-based behavior system that was intwined with the clock. We are reworking both systems today:
+
+When a player selects a behaviorChoice's select button, the following flow happens:
+IF that behavior has a SpoonsCost requirement greater than zero, the spoonPanel appears. Inside the spoonPanel is a spoonSlot, where the player can drag and drop their spoons from their spoon drawer into the slot. Each time a spoon is dropped into a slot, it fades away, disappearing from the scene and incrementing a spoonsSpent temporary variable that gets cleared if the operation is cancelled or when the behavior actually triggers. 
+
+If the player chooses to press the cancel button on the spoonPanel, all the spoons they spent will reappear and animate into the spoonDrawer. 
+-Hit Cancel -> If not already open, Spoon drawer opens (there is already a command for this on the spoonDrawer's tab object) -> spoons reappear over the spoon slot they were spent in -> spoons animate back into the spoonDrawer (reusing the animation smoothing from the spoonBehavior script) -> SpoonPanel disappears.
+Currently, hitting cancel just disappears the spoonPanel, and right now spoons don't disappear properly once the spoonSlots are full.
+
+Once they have enough spoons dragged in, the "Do the Thing" button becomes enabled (previously disabled), and once clicked, the behavior actually starts.
+
+When a behavior starts, if the Behavior attached is of type OneShot, a progress bar on the BehaviorChoice panel fills up, and once it is filled, that behavior uses the BehaviorData info to subtract the appropriate resources from the player. At the same time, it should also run a yarn node (specifically a node on a script, determined via code) that will play automatically using ThoughtBubbleView (still a WIP, this part can be stubbed for now)
+
+If the Behavior attached was of type Interactive, there is no progress bar. Instead, an interactive yarn node plays, allowing the player to make decisions as the situation is narrated. During these interactive sections, players cannot move the camera or make new decisions. Their inputs are basically disabled to focus on the interactive narrative happening. These decisions might influence the subtraction or addition of resources at the end. Once the yarn node is complete, the resources are modified appropriately, and the player may make choices again.
+
+Right now, we have the spoon dragging

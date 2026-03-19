@@ -1,0 +1,18 @@
+Ok works well enough. Lets get the next big thing working: The options presenter. Right now, when I try to use ThoughtBubbleView with yarn scripts that contain options, they just default to the first option.
+
+THe goal is for this ThoughtBubbleView presenter to handle two types of writing: Thoughts and Dialogue. 
+
+Thoughts are what we've been working on, random thoughts that play via yarn script. These progress automatically, and are meant to happen while a task is underway.
+
+Dialogue is more like the basic dialogue presenter, but using the visuals of the ThoughtBubbleView. I think text should scroll like thoughts in boxes, but instead of fading away, they stack at the top until the box is nearly full of them, and then they scroll up as new ones are loaded or as the player selects dialogue options a la Disco Elysium's dialogue interface. This system needs support for options, which will appear as buttons. Right now, this is the biggest thing to do next, so I don't want a lot of stress. I can paste my current ThoughtBubbleView script and OptionsPresenter so you can see what that looks like.
+
+7:37PM
+We should make a new scriptableObject called thought. It stores a yarn script, lifetime, rise distance, basically all the info that the ThoughtBubbleView script is trying to store. Then, we can reconfigure it so that the logic of floating and fading that ThoughtBubbleView is running, we can have the ThoughtBubbles themselves do that, and pass in the info from our scriptable object when we spawn them. 
+
+Also, SpawnThought can just pass in one of these scriptable objects, right? We can change it's function to do the things the current GetKeyDownAlpha8 stuff is doing.
+
+Can we just make it so multiple thoughts can be on screen at once? Making them all float in one by one takes FOREVER + is incompatible with thoughts with longer lifetimes.
+
+Bugs to Fix:
+- thoughtBubble margins are still fucked
+- thoughtBubbles are not taking in info from FamilyManager to get thoughtBubble color, but are reading name. Shouldn't be too hard to fix, and will allow for multiple speakers to use same thought.

@@ -1,0 +1,12 @@
+Behavior Overhaul:
+
+Hikikomori's progression is dependent on the player spending Hiki's time completing behaviors. These appear in game as icons near parts of Hiki's house, such as his desk, kitchen, and bathroom. These visually look like flat UI elements that stay the same size no matter where the camera moves. I think the way to do this is to create a 3D gameObject and place it somewhere in the scene. If on screen, the UI element appears, but disappears when the 3D gameObject is off the camera screen.
+
+When the player clicks one of these, the camera zooms in to that object from its room position. From there, 1-4 behaviorPanel will appear. These show the name of the behavior, a short description, and a short description of cost. Behaviors can cost time, cash, spoons, some combination of those, or nothing. When a behavior is clicked, one of two things happen:
+
+Situation 1: One-shot: a progress meter fills up quickly (variable based on time cost if applicable), the relevant resources are subtracted, and a thought plays in automatic mode. This should be quick, allowing players to get back to making choices if they want.
+
+Situation 2: Scene: A thought plays, this time in interactive mode, meaning the player is now in a turn-based dialogue with their inner family. These scenes contain choices the player can make which will influence their resources and the course of the game's story. Once the dialogue is finished, the relevant resources are subtracted, and play resumes as normal.
+
+Ideas:
+- When hovering a behavior, clock shows how much time will pass if selected like 2:00 PM --> 2:45 PM

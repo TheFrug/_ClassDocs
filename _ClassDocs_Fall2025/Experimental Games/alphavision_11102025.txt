@@ -1,0 +1,7 @@
+Alphavision Description
+
+The game is a dating sim visual novel with a twist: the player character wears a set of smartglasses that have a camera and microphone attached which record his date so that an "Alpha Coach" can give him advice via messages relayed to the glasses screen.
+
+Alphavision is a criticism of the neo-masculinity movement, also known as the manosphere, the tatepill, the redpill, etc. This game in particular features many of these ideologies overlappig flaws which all relate to a perverse form of masculinity that emphasizes control over women, dominance over men, and hypercapitalist mindset. 
+
+For the purpose of the installation, the player's choice whether or not to use the glasses will be connected to a real set of red-filter plastic glasses which will allow the player to decode the alphavision UI. For the installation version of the game, the glasses will need a shader filter over them that the glasses can counteract. 

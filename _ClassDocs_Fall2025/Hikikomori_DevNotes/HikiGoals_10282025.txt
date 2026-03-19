@@ -1,0 +1,47 @@
+Project Hiki Structure Idea
+
+Redoing the whole fuckin thing because WOW Citizen Sleeper is really engaging with gameplay consisting of just decision making. I even find the prose a bit boring compared to just managing resources.
+
+Main Idea: Resource Overhaul 
+Rather than maintaining Stress, Hiki has a "Hope" bar that drains over time, but not gradually.
+Hope can increase in a few ways, primarily by completing goals.
+Hope can decrease in a few ways, such as by failing tasks or while doomscrolling.
+
+New UI component: Tabs
+I want to slap on a lot of UI panels: A tab that when clicked slides the UI in or out of frame. 
+Needs:
+inFrame (bool) 
+X and Y offset variables (int) - determine how far it travels and what direction. 
+button (Button) - Reference to button gameObject that is a child of the parent that will have the Tab component
+
+Panels should ease in and out of their start and end positions so the UI looks cool
+
+Spoons are now the resource required to complete many of the tasks associated with goals. 
+Player receives a random number of spoons each day, based on Hiki's hunger level at the start of that day as well as how many spoons he had leftover.
+
+TODO: Spoons currently don't have logic to be spent or added. We need this.
+
+IN ORDER TO USE A SPOON: Player must open their spoon drawer and drag a spoon out of it and place it in the slot. This way, the player has to make the physical choice to expend a spoon.
+
+Goals: Main Progression System
+Goals can be worked towards using multiple spoons either in the same day or across multiple days. 
+Goals can progress the story, moving the player down certain paths.
+Goals 
+TODO: YarnCommand("AddGoal") - AddGoal(string goal): Adds the named goal scriptable object to the list of goals, which updates the goal panel to display it. 
+- Goals are completed by doing certain behaviors, sometimes multiple, a number of times. 
+- Checklist can be visualized as number of blank squares next to each required behavior, the number equal to the total number of times needed to do that goal.
+- Each time that behavior is done, the boxes fill yellow, crossing out when a line finishes.
+
+Clock and Calendar:
+Gameplay will take place over days, with each day acting as a level. Hiki can use the "Go to Bed" option to end the current day, starting the next one. 
+
+Each day starts at 2:00pm and ends at 4:00pm
+
+Narrative: The protagonist of this story is Hiki's "Self", the part of him that he and his parts purposefully sealed away to avoid ever being hurt again. This part is Curious, compassionate, calm, courageous, clear, confident, creative, and connective, representing the truest version of Hiki.
+
+---Completed---
+
+FamilyManager: Family parts each have a Bond value that is hidden from player. Certain dialogue options increase bond, glowing with the same color as the family member associated with that increase. Over time, the player can surpass thresholds to speak to the parts of Hiki on their own terms, learning more about their intentions and nature.
+addBond(PartInfo part, float amount) - increases bond of specified family member by bond amount. Also, I eventually want there to be particle animation of the color of that family member, so include a commented area reminding me to do that later
+
+"Hunger" will impact how many spoons Hiki starts each day with. Hunger can be influenced by the outcomes of decisions.

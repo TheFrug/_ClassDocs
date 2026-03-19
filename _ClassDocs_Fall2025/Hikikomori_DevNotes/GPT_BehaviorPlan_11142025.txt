@@ -1,0 +1,219 @@
+Cool—MAC, this is a great space to lean into. I like your design for the “Hiki does things in the house” system, and we’ll shape it so it channels some of the sweet resource-/choice-driven rhythm that Citizen Sleeper uses. First I’ll recap what we learn from Citizen Sleeper (so we’re clear on what we’re borrowing), then I’ll sketch how your behavior system can be modified (API + Unity code) to support it, then we can walk through pros & cons / implementation challenges.
+
+1. What Citizen Sleeper’s gameplay loop gives us (and why it’s relevant)
+
+Here are the key mechanical themes from Citizen Sleeper (CS) that you might want to adapt, along with what they enable.
+
+In CS you have a cycle (one game-day) during which you have a limited number of actions (dice) that you assign to tasks/actions. 
+Wikipedia
++4
+Game Informer
++4
+howtomakeanrpg.com
++4
+
+Your condition/energy influences how many resources (dice) you get, so failing to maintain condition eats into your ability to do meaningful things. 
+howtomakeanrpg.com
++2
+Game Informer
++2
+
+Tasks are associated with locations/contexts in the station. You select what to do at a given location, often with tradeoffs. 
+Steam Community
++1
+
+There is a strong theme of scarce resources + meaningful choice: you must decide which tasks to do, which to skip, sometimes risk outcomes. 
+Game Informer
++1
+
+There is some branching narrative/outcome structure based on tasks you choose (and maybe succeed/fail) though CS is more narrative-driven than purely mechanical. 
+Metaphors and Moonlight
++2
+joshcv.substack.com
++2
+
+Why this matters for your system:
+Your model with “behaviors in Hiki’s house” is already nicely aligned: behaviors consume resources/time/spoons, they are located in parts of the prefab “home” scene, and choosing one leads to either a quick outcome or a deeper interactive scene. By borrowing the CS style of limited resource + meaningful choice, you can reinforce the feeling of time-/energy-/spoon-bound decision-making. You can also layer in consequences (narrative/branching) based on which behaviors you select over time.
+
+2. Adapting your BehaviorSystem to lean more like CS
+
+Here I’ll sketch an updated architecture: what changes or extensions to your existing API, what new components, and how the flow works end-to-end.
+
+2.1 High-level flow
+
+In the house scene, you have multiple “BehaviorAnchors” (3D GameObjects) placed at e.g. desk, kitchen, bathroom. These serve as spatial anchors.
+
+On screen: if a BehaviorAnchor is within the camera’s view frustum, you overlay a fixed-screen-space UI icon (flat UI) tied to that anchor (so world position → screen position). If the anchor is off-screen, no icon.
+
+Player clicks the icon → camera transitions (zooms in) to that anchor (so your existing camera system takes over maybe with an animation). Then you present the BehaviorPanel (UI) listing the available behaviors for that anchor’s “room” context.
+
+Player selects a BehaviorData item: we check unlocks, resource costs, etc. Then:
+
+If BehaviorData.isScene == false → one-shot: brief progress meter, subtract cost/time/spoons, trigger direct thought (Yarn node maybe) and return to idle.
+
+If BehaviorData.isScene == true → interactive dialogue: pause clock/time, start Yarn (dialogueRunner) node(s), wait for interactive choices, behind the scenes you may deduct resources and set branching flags/outcomes, then resume clock and return to idle (or maybe go to next default behavior).
+
+Meanwhile default idle behavior is running (your defaultBehavior) when player is “not doing anything else.” Perhaps during idle we can still accumulate some passive change (time, spoons regen or hunger increase) until a behavior is triggered.
+
+We maintain a “cycle” or “time block” unit (you already have minutes → cost/time). We can optionally incorporate something like “actions per cycle” or “daily reset” if you want to mirror CS more strictly (but you don’t have to copy that exactly).
+
+2.2 API & code changes
+
+Here are concrete modifications/extensions to your existing code.
+
+New data fields on BehaviorData
+
+Add a boolean isScene (you already have the logic by checking: one‐shot vs scene).
+
+Add maybe actionsCost or actionPointsCost if you want an “action count” mechanic.
+
+Add roomAnchor (enum or identifier) or maybe the BehaviorAnchor prefab holds the mapping, so BehaviorData knows which anchor(s) it appears under.
+
+Add maybe failsafeOutcome or alternateOutcome if you want branching results for the scene mode.
+
+BehaviorAnchor component
+
+Create a new MonoBehaviour: BehaviorAnchor. Each anchor has:
+
+public class BehaviorAnchor : MonoBehaviour {
+    public RoomType roomType;
+    public BehaviorPanel behaviorPanelPrefab; // or reference to panel
+    public Sprite icon; // icon to display on world-space anchor
+    private GameObject uiIconInstance; // screen‐space representation
+    // maybe:
+    public List<BehaviorData> behaviors; // for this anchor
+}
+
+
+Responsibilities:
+
+Convert its world position to screen space each frame (or when camera moves) and show/hide the icon if within view.
+
+Handle click input (e.g., attach a collider to the world-object, or the screen icon is clickable) to trigger camera zoom + open BehaviorPanel with its list of behaviors.
+
+Camera zoom logic
+
+You already wrote a spatial camera system (from your memory). Use that: when anchor is clicked:
+
+Lock input for movement, trigger zoom animation to anchor location/angle.
+
+When zoom finished, instantiate/present BehaviorPanel UI and pass the anchor’s behaviors list.
+
+When panel closed, restore camera to default.
+
+BehaviorManager modifications
+
+Add an enum BehaviorState { Idle, RunningOneShot, RunningScene } to the manager.
+
+In StartBehavior(data) we decide if data.isScene==true then go to RunningScene flow, else RunningOneShot.
+
+For one-shot: show a progress bar UI (maybe via a coroutine), wait until it completes (durationMinutes processed quickly or scaled), subtract/spend resources, trigger any Yarn node (for one shot maybe only OnEnd), then mark isBusy=false, return to default.
+
+For scene: call TriggerYarnFor(data, OnStart), then when dialogue ends, subtract resources, TriggerYarnFor(data, OnEnd), then isBusy=false etc. Clock maybe paused during scene.
+
+If you want “actions per cycle” you could add something like int availableActions in the manager, and each behavior uses up actionsCost. When availableActions==0, you force cycle end (or disable behavior icons until reset). That’s optional and mirrors CS more closely.
+
+Unlocking / branching
+
+Your BehaviorUnlockManager is good. For branching outcomes: BehaviorData could include fields to track successTriggerNode, failureTriggerNode. In scene mode you evaluate based on some condition (player choice) whether success or failure, then call the appropriate Yarn node.
+
+You might also track that some behaviors change resourceManager outcomes differently depending on choice made.
+
+Visual UI & UX
+
+BehaviorAnchor icon: world-space anchor that doesn’t scale with camera (you handle screen overlay).
+
+BehaviorPanel: after zoom, UI listing behaviors (you already have a panel). Extend it to pass the selected anchor context.
+
+Progress bar for one-shot behaviors.
+
+Dialogue UI already there via Yarn.Unity.
+
+2.3 Example workflow in code
+
+When player clicks kitchen icon:
+
+BehaviorAnchor for kitchen is clicked → camerazoom to kitchen anchor.
+
+On zoom complete: instantiate BehaviorPanel, populate with kitchenBehaviors.
+
+User picks “Cook Instant Noodles” (BehaviorData). Suppose isScene = false, durationMinutes = 15, spoonsCost = 1, hungerImpact = -2.
+
+BehaviorManager.StartBehavior(data) invoked → since isScene==false you do the one-shot flow: show progress bar for 15 minutes (scaled down maybe to 1–2 seconds real-time), at completion resourceManager.ModifyResources(spoonsCost, hungerImpact, cashCost), then TriggerYarnFor … OnEnd (if any), set isBusy=false. Return to default idle.
+
+Time has advanced by 15 game-minutes via your clock system automatically.
+
+Icons re-enable, default behavior continues.
+
+If instead user picks “Deep Clean the Closet” (BehaviorData with isScene = true, durationMinutes = 30, spoonsCost = 2):
+1–2 same as above.
+3. StartBehavior → detect isScene==true → pause clock, TriggerYarnFor(OnStart), launch Yarn dialogue node (you’d craft a special node for interactive scene) with choice options. Player makes choices → results feed back (you adjust resourceManager accordingly). At dialogue end: TriggerYarnFor(OnEnd), clock resumed, isBusy=false.
+
+3. Pros, Cons & Implementation challenges
+Pros
+
+You get a richer “decision space” while playing that fits your narrative of managing limited spoons/time.
+
+The spatial anchors + camera zoom provide nice flavour and scene immersion (player locates the behavior in world).
+
+The branching scene vs one-shot distinction adds variety: quick pickups vs deeper story moments.
+
+Borrowing CS’s rhythm (limited resources + meaningful actions) gives your game a compelling structure.
+
+Cons / challenges
+
+The CS system is fairly abstract (dice + cycles) and your system is more literal (behaviors in house). You’ll need to ensure you don’t get bogged down by too many small tasks that feel like busy-work.
+
+Balancing: lots of behaviors might tempt players to “grind” easy ones just to clear resources; you’ll need to design spoon/time/hunger/cash cost curves carefully.
+
+Implementation complexity: The anchor → UI icon mapping, camera transitions, and handling off-screen/hide logic all add architectural overhead.
+
+Branching behaviour scenes: writing enough Yarn dialogue, handling outcomes, and ensuring state persists can get tricky.
+
+Visual clarity: making sure the icons don’t clutter, the player understands what’s available, and “why I should click this now” is clear.
+
+Specific technical challenges
+
+Converting world position → screen space and handling click vs off-screen hide: you’ll need to consider UI canvas vs world camera, maybe using Camera.WorldToScreenPoint() and some screen bounds checks.
+
+Making sure the camera zoom doesn’t conflict with your existing camera system (you said you have spatial camera system switching angles). You’ll need a clean way to “lock” the camera during behavior transitions and restore.
+
+Pausing/resuming the clock while dialogues happen: you already handle pause in RunYarnNode, good, but even in one-shot you might want to freeze certain inputs or behaviours.
+
+Behavior queueing: you already have a queue for queued behaviors; you may want to extend to “actions per cycle” logic (e.g., when queue empty and availableActions==0 → force cycle end). Ensuring UI updates accordingly.
+
+Unlock logic: maintaining good feedback to the player that a behavior is locked/unlocked, maybe UI overlay states etc.
+
+4. Suggested Next Step Implementation Plan
+
+Here’s how you might roll this out in your project:
+
+Create BehaviorAnchor prefab: For each room (desk, kitchen, bathroom) add a GameObject with BehaviorAnchor component, assign roomType, assign icon sprite, assign list of BehaviorData for that anchor.
+
+World → screen UI icon system: Create a manager (e.g., BehaviorIconUIManager) that cycles through all BehaviorAnchor instances, does WorldToScreenPoint, checks if point is within screen bounds (and maybe anchor not occluded) and if yes, instantiate/update a UI icon (on a Screen-Space canvas, fixed size) at that position; if off-screen, hide the icon. Clicking the icon triggers BehaviorAnchor.Clicked event.
+
+Camera transition logic: Extend your existing system to take a target Transform (BehaviorAnchor.transform) and animate camera/movement to a fixed zoom position/angle. When done, callback to open UI panel. Also handle returning to default viewpoint when panel closes.
+
+BehaviorPanel adaptation: Link BehaviorAnchor to BehaviorPanel: when BehaviorAnchor is clicked, pass behaviors list to BehaviorPanel.PopulateGrid for the room, open panel. The rest of BehaviorPanel code (select room, etc) you might simplify: since it’s always context of the anchor, you can skip multiple room tabs and just show behaviors for that anchor. Or keep room tabs if you want categories.
+
+BehaviorManager adjustments:
+
+Add isScene flag to BehaviorData; use it to branch logic in StartBehavior.
+
+Add an actionsRemaining field (optional) to count actions per cycle; reduce when behaviors used; integrate into HandleClockTick to reset when cycle ends.
+
+Modify TryStartBehavior or StartBehavior to check resources (spoons, hunger, cash, actions) before proceeding, and give feedback.
+
+Extend RunBehavior logic: for one-shot behaviour you might short-circuit the while loop, or run a faster progress bar coroutine then subtract cost.
+
+Tie into Yarn for branching: For scene behaviours create Yarn nodes that represent start → choices → end; you already have the triggers logic for OnStart, OnMidpoint, OnEnd in BehaviorData. For one-shot behaviours you might still use OnEnd to show a quick thought.
+
+Design & balance: Create a set of behaviours, assign realistic costs/time/spoons, decide which are one-shots vs scenes, map them to anchors. Play-test to ensure the player is facing meaningful trade-offs.
+
+Cycle and reset logic: If you adopt actions per cycle, you’ll need a “day end” trigger (maybe when player returns to bed or when actionsRemaining==0) that resets availableActions, maybe reduces hunger/other stats, triggers any end-of-day events, then refreshes.
+
+UI feedback: Show icons that grey out when locked/in cooldown, show tooltips when hovering/pointer (you already have ToolTipPanel). For scene behaviours you might temporarily disable other anchors until the panel closes.
+
+Persistence: Save unlocked behaviours, resource states, time-of-day, progress. Ensure load/quit handles mid-behavior gracefully.
+
+If you like, I can draft a UML/class/flowchart of how this new system will look in your project (with your existing classes) and provide pseudo-code for the new methods (BehaviorAnchor, icon manager, camera transition) to get you going. Do you want that?

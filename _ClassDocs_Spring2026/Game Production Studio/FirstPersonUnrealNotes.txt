@@ -1,0 +1,25 @@
+I know I said we should come up with a mechanic and work backwards, but thinking of potential genres will also help.
+
+Types of game with:
+- First-person perspective
+- No complex character visuals
+- Low floor of mechanical complexity
+
+Below some of these I'll poste examples. I wouldn't call all the examples within the scope of this project exactly but they show what can be done in the genre by indies.
+
+- Horror: Kinda overdone with Unreal, but I think we could come up with something novel. 
+
+We can talk to Ian Percy about his lessons learned in horror level design.
+
+- Dungeon-crawler: This one requires *some* enemy designs, but the demands of animating a little slime/skeleton/bat type enemy is not as bad as a human guy. This genre is underrepresented in first-person, so there's a lot of fun design space to explore i.e. Portals?
+https://rotmill.itch.io/kings-field-remade
+
+- Simulator game: I like the narrative design of simulation games, trying to find the fun in a real-life process and centralize the game on that. We can also just design the tutorial or maybe second level/day of the simulator for the vertical slice?
+-- Fantasy something simulator? Potion maker with funny physics? Blacksmith sim? I've always wanted to make a simulator in a fictional setting
+https://dasius.itch.io/my-little-blacksmith-shop
+
+- Walking Sim: Focuses on the environment and narrative. While I am confident this group could create a banger walking sim, I also think we can aim higher than that.
+
+- Adventure Game: Focusing on an interesting mechanic, we can do some straight-up level design and make something fun, accessible, and with a complete narrative arc.
+https://antlerstudios.itch.io/project-grove
+https://wabbaboy.itch.io/sorceress

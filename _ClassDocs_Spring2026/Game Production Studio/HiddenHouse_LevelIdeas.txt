@@ -1,0 +1,7 @@
+Hidden House of the Sun ideas
+
+- Flashlight controls: While using camera, player can hold a key to activate the light. The longer they hold it, the brighter it gets, until eventually overcharging and breaking the energy source (battery)
+--Breaks first time when opening entrance, forcing player to explore in mostly the dark. 
+--Player gets a charged crystal from a puzzle room and uses it as makeshift battery for the flashlight (kind of desparate moment, but it pays off)
+
+- Bonus puzzle with this flashlight: Shine light at separate doohickeys to get them into correct position, they slowly fall so shine in the right order and for the right amount of time.

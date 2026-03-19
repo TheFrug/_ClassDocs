@@ -1,0 +1,49 @@
+The core narrative device of Project: Hikikomori is the ThoughtBubbleView. This is a tall panel on the right side of the screen. When the player selects a behavior, that behavior has a 'Thought' associated (scriptable object), either a 'Random Thought' or an 'Internal Dialogue'. Both of these types of thoughts will spawn ThoughtBubble prefab objects, but the way these bubbles move and act will be based on their type. 
+
+In either case, Thoughts are displayed by reading a Yarn script associated with that Thought's scriptable object. Each line of this yarn script will be housed in its own ThoughtBubble, with the bubble's color and name plate being based on the speaker's stats in the FamilyManager. Speakers (known in the game as 'Parts' based off of IFS therapy), have a bond level as well as a nameRevealed bool. The color of the box will be read from the bond level, and if their name is revealed, a name text box appears slightly up and to the left of the bubble. Thoughts spawn at 'Bottom' (rectTransform), float to the top of the panel to a position defined as a rect transform called 'Top', hold until the other thoughts in that full yarn script have all floated up, then they all should float up and past the top of the ThoughtBubblePanel
+
+Random Thoughts follow this pattern exactly, being meant to float up as the player is making their next choices.
+
+Internal Dialogue plays out more like a normal visual novel, with the thoughts still floating to the top of the screen. However, they do not spawn automatically. After the first thought, players must advance the yarn script via SPACE or clicking the 'ADVANCE' button that is only visible when an InternalDialogue is happening, also known as 'Interactive Mode'. Instead of holding for a specific amount of time, interactive thoughts float to the top and stay there, only scrolling up once newer thoughts begin to push older ones upwards, which happens after a few turns. This UI should resemble Disco Elysium's dialogue interface (go ahead and look that up). 
+
+In addition, in Interactive Mode/Random Thoughts, Thoughts from family parts/narrator will be offset to the left, and Hiki's (the player character's) thoughts will appear on the right side in a dark gray box with white text to show that they are the player's character.
+
+Occasionally with Internal Dialogue Thoughts, which contain options using yarn's API, the player will be unable to progress until they have made a choice. These will be presented as separate thought bubbles which float into frame in a neat column with numbers next to them, still adhering to Inernal Dialogue's structure. If the player clicks one of these or presses a number key from the listed options, that option is selected, and dialogue continues. Based on the option selected, the Family members might have their bonds influenced, or the total resources (spoons, energy hope) subtracted or gained at the end of the internal dialogue, if triggered by a behavior selection, might change. 
+
+When clicking behaviors to trigger thoughts, Resource modifications should trigger once the Behavior is done with its activation (when its progress bar fills and the thought begins) for Random Thoughts (THIS WORKS RIGHT NOW). For Internal Dialogue, the resource modification should be stored and updated over time as the player makes decisions, with the base resource modification being based on what the Behavior does. However, different decisions made in Internal Dialogues may alter how those resources are spent, for example by expending extra spoons to reap a benefit or when a random event happens. At the end of the dialogue, resources will be modified based on a combination of the base costs and choices made.
+
+This is where the narrative options will come into play, and aesthetically this should look cool. I want to eventually add particles and such that show which family member the player's dialogue choice most supports, which adds to the game's internal family dynamic theme. 
+
+--OUR PLAN--
+
+Currently, my ThoughtBubbleView (manages ThoughtBubble panel AND yarn integration by being a DialogueRunner) and ThoughtBubble (ThoughtBubble prefab behavior) are absolutely massive scripts with a lot of redundant code. Brandon's ThoughtBubbleController and ThoughtBubble.cs are much shorter,  and only have the simulated physics part for automatic thoughts. What we need first is to move our logic to a new script that uses his system as the base, but integrates Yarn. 
+
+Tell me if this plan makes sense, and I will start pasting scripts for your diagnosis.
+
+
+-- Update 11/23/2025; 1:29PM --
+
+It doesn't work, but it isn't completely crashing either. I call that progress.
+
+List of Bugs:
+
+1. Since my DialogueRunner has a start node set, I can see that for whatever reason, this ThoughtBubbleView_New is not causing markup notation to run properly. When the game starts, a bubble is already in the middle of the ThoughtBubble panel reading "Goblin: Hello! [dread]This sentence should be red[/dread]. Testing...". This fades out after some time, then the second line, reading "OK, [hype]this one should be green[/hype].
+Here is the relevant yarn script for reference:
+title: Markup_Test
+---
+//<<PauseClock ClockManager>>
+Goblin: Hello! [dread]This sentence should be red[/dread]. Testing... 
+//<<PlayClock ClockManager>>
+OK, [hype]this one should be green[/hype].
+===
+
+Before you ask, there is a Markup Processor object in my scene, with both a Palette Marker Processor, and a Style Marker Processor. When switching back to the old system, the markup works properly.
+
+2. The larger issue comes when I press 5 to run GoblinThought.yarn. When I press it, the first bubble appears with no text in the speakerText field and ??? for the namePlate. 
+Note, when the speaker name is NOT GIVEN or nameRevealed is false, the name box should not be appearing whatsoever. This is to give the illusion that, when no names are revealed and no bonds are developed, that the thoughts all come from the same voice, rather than multiple voices. 
+This box stays on screen forever, and does not fade away at all. The next line never loads, and the bubble doesn't even float upwards. It spawns near the middle, rather than on Spawn.
+
+Notes:
+Without even looking at the code, I can see in the inspector on my scene with Brandon's stuff hooked in that his ThoughtBubbles have several fields, including some set at runTime. One is the ThoughtBubble's own Rect Transform, one is HasSpeaker, TopTimer, CenterX,  SwayTimer, Duration, and a Done bool. It also has some Auto Size parameters like an _autoSize bool, _minWidth, _maxWidth, and _padding. 
+
+It seems you did not actually create the ThoughtBubble_New script with Brandon's ThoughtBubble.cs in mind. 

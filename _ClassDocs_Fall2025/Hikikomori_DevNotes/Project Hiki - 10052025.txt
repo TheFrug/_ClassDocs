@@ -1,0 +1,33 @@
+Today's Work Objective:
+
+Behavior System - Project Hikikomori
+
+At any given time, Hiki is doing at most one type of "Behavior". 
+While doing behaviors, Hiki's resource bars, Stress, Spoons, Hunger, Cash, and Time will change values over time. 
+
+Behaviors can either be default, toggled, or activated (a better term might be used here):
+
+- Default behaviors are idle tasks like doomscrolling, napping, using the computer, etc. Hiki will default to one of these when the player does not input any actions for Hiki to take.
+As Hiki spends time doing these tasks, resources will change by steady and sproadic amounts. For example, Doomscrolling eventually causes spikes in stress which will quickly accumulate if the player isn't careful.
+
+- Activated behaviors each take a fixed amount of time, during which Hiki's current behavior will be set to the activated one. Over this fixed time, Hiki's resources will change.
+The rate of change should be calculated based off the change (like delta) over the time amount for that behavior.
+
+Questions:
+1. Right now we have the scriptable object called "Behavior Definition". Can we pass these values into the behavior manager when the player presses one of the behavior buttons? That way we can use the Behavior scriptable objects for the UI and the logic
+2. How can we get custom methods to work with these behavior objects, specifically Yarnspinner's method to run specific yarn scripts through the dialogue presenter?
+
+Mechanic/UI Ideas:
+- Each behavior panel has up to 6 objects, and some number of them are locked until Hiki completes certain conversations.
+Alrighty. Now, I want to implement a lock system for the behaviors. The idea is that some behaviors can be locked with a condition, usually triggered by a yarn node event like UnlockBehavior(BehaviorName). To do this, we should add a startsLocked bool to BehaviorData. If it is true, the Behavior's icon doesn't show a name, but instead has a locked symbol layered over it (should this be added to the prefab as a separate object that starts inactive?). Then, when UnlockBehavior(BehaviorName) is run (probably on the Behavior panel object), the lock image fades away and that Behavior becomes available to use. Before that point, if the player clicks a locked behavior, it should call an event to play a sound or maybe show the tooltip message.
+
+- Phone needs to be implemented so Hiki can see cash
+
+Narrative/Game Ideas:
+- Spoon display as a drawer of loose spoons
+- Spoons aren't visible resource until partway through the game.
+
+Bugs:
+- **FIXED** Hiki is Busy tooltip stops fading and animating if mouse leaves button bounds
+- **FIXED** Take a Nap node cannot play yarn script more than once. Seems to affect onMidpoint YarnTriggers. Check onMidpoint-based logic
+- 

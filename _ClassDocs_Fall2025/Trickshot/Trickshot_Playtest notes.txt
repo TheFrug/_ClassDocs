@@ -1,0 +1,8 @@
+Trickshot Playtest Notes
+- On round 2, with one card leftover from round 1, I drew up to five rather than drawing five new cards
+- five energy feels like a lot. Maybe three energy will make decisions more interesting
+- Colored highlights still missing. 
+- Hype gain number is hard to read. White text on Yellow star background + too small?
+- Action card type is also hard to read. 
+- Text box with no abilities looks kinda awkward. Maybe add 'Gain x hype' text to them just to fill the space
+- If we are doing card ordering first, then going through card effects in sequence after 'PLAY', then maybe there should be a hype preview so players can do math more easily?

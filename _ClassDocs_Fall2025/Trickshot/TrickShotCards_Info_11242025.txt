@@ -1,0 +1,25 @@
+Next Effect:
+
+Energy Effect: Gain x energy next round
+Hype Effect: Gain x hype
+
+Needs to have 
+Energy Discount: Next card of [type] costs less energy
+
+-If last card was [type], this card costs x less
+
+Gain +1 energy if 
+
+Next trick this sequence triggers an additional time
+
+Draw cards
+
+If final card/[type] in this sequence, [effect]: gain energy, gain hype, draw cards
+
+If next [cardType] is [PlayerPosition], gains [multiplier] [Hype]
+
+If no [type] played this round, [effect]
+
+Gain +x Hype for every [type] played before in this sequence
+
+Next [type] drawn costs 0

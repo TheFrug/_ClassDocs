@@ -1,0 +1,34 @@
+1. How tha kaiju/animate
+
+Always above ground
+Reference: Giant Centipede
+Kaiju Controls:
+W to move forward
+A/D Turn
+S Slow down/lift up
+
+2. What our kaiju player does in gameplay
+The Kaiju destroys stuff to raise Doom meter!
+- Doom Meter bursts:
+-- Killing Hunters
+-- Killing important buildigns/structures
+-- Other?
+- Minions slowly increase Doom by blowing stuff up themselves.
+-- Minions can handle straggler buildings left standing when the Kaiju is moving through the city (avoid backtracking)
+-- 
+
+Kaiju Destroys things by:
+- Moving through them (smaller structures)
+- Contextual action (larger structures)
+- 
+
+3. Confirm what the kaiju side goal is overall
+- Doom meter
+- DMC-style: D, C, B, A, S
+-- The higher your style, the more moves you can use
+-- 
+
+Kaiju Doom Effects:
+- Roar deafens player
+- Heat aura
+- BIG LASER (mandatory)

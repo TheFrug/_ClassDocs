@@ -1,0 +1,17 @@
+Ok we need gameplay to house this story. For now, lets hone in on the resource-management as the main gameplay with dialogue interspersed. 
+
+Gameplay loop:
+Game state at start: Hiki in room with three resources at top: 
+- a clock ticking from 11am to 3am (Hiki's bedtime because he's depressed), 
+- a bar with some number of spoons in it (randomly set at start of day with spoons displayed as a number of spoon images based on how many he has left)
+- Hunger
+- Stress meter with visible thresholds (40%, 60%, 80% the bar changes color to communicate risk, 100% something catastrophic happens)
+
+Player can choose between behaviors for Hiki on the left side, and Hiki will continue to do whatever behavior was last set for him, stopping only when one of the resources being expended as part of that behavior runs low, at which point Hiki will go back to Doomscrolling (slowly lowers stress)
+
+Occassionally, a contextual decision will appear. The player makes a choice during this decision that affects the outcome of the event.
+
+Occassionally, Hiki's internal family system chimes in to comment on what he is doing, with the differing voices offering unique perspectives. 
+
+UI Note: I like the idea of the screen being a big console with the controls being real buttons. This makes Hiki's psyche more tangible. 
+-Spoon display as a drawer of loose spoons
