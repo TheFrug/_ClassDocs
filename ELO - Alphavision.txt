@@ -1,0 +1,47 @@
+
+https://projects.cah.ucf.edu/elo2026/cfp.html
+
+Electronic Literature Organization - Meeting Notes 2/23/26
+The work doesn't need to be completed (this is true for the online exhibition and the individual talks)
+The ELO event is in June
+Theme - (Un)supervised
+
+Proposal Due Date: February 28th
+
+Online Exhibition
+- Must be playable in browser
+- To Do: Unity Web
+- Need a version to put up by end of May
+
+Individual Talk
+- I've made this thing that explores XYZ themes
+- To Do:
+-- 250-300 Word abstract: Here's what I'm doing, what its interested in, etc.
+- 10-12 minutes
+
+Alphavision
+Most Interesting Thing: The tension between the Alphavision's feedback and the conversation happening in-game.
+- Need to nail down that interaction
+Don't worry as much as much the art style (Jack likes the pencil-sketch aspect of it)
+- Sketch creates contrast bt high-tech Alphavision and sketch-like Mary
+- How to have player choices + Alphavision dialogue interplay (I don't know why this option is here)
+-- Maybe those options should also be behind a red decoder filter
+- Conversation branch for the Redpill line > Every line from player is redpill-coded (dialogue gets redder and redder)
+- Focus on the dynamic of whether or not to wear the glasses
+- If picking non-alpha dialogue options > Alpha coach crashes out, berates you, you can't read it if you ignore him or don't wear glasses
+- 
+
+The thing that sets the game apart is the glasses; elevates it
+- Before game: Do you have decoder glasses?
+- Can also use red cellophane
+- If no glasses; make alpha text red (options and dialogue)
+
+- Dialogue references player wearing glasses (MARY: Oh I didn't know you wore glasses!)
+- Near start: Meet the Alpha coach, then make the choice: Do you put the glasses on? (Y/N)
+-- Leads to different conversation route
+- Worst-case scenario: Player plays through a normal date without glasses
+
+Mention:
+Relationship between the digital narrative and material (red glasses)
+
+At the end, the ELO people will deploy it for me

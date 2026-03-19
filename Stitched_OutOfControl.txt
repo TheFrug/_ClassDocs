@@ -1,0 +1,203 @@
+Out of Control
+
+1. Shin Megami Tensei + Cards RogueLike
+Give your cards to teammates, they can't be controlled by player. 
+
+2. SCP Containment breach/RogueLike?
+
+3. 
+BG3 Mod to control party with AI, can switch their AI
+
+Genres to do:
+RPG
+
+Genres we don't do
+FPS
+Physics-based Platformer
+Positional Combat
+
+Player has 1 party member: Their chimeric monster. 
+
+Monster is a large beast made up of monster parts controlled by the player, a mad scientist at a monster research facility.
+Gameplay loop: Battle > Loot > Stitch > Repeat
+
+All enemies are monsters that can drop 1-3 body parts at end of battle from a potential pool of 3
+Monster Parts: Can be stitched to the Chimera in one of 6 slots:
+
+Head
+Left Arm
+Right Arm
+Left Leg
+Right Leg
+Tail
+
+Each of these slots can be filled with a monster part. Each monster part has a durability stat, which decrements every time a skill associated with that 
+
+Skill/Behavior Parameters:
+
+Options Menu - Pokémon Style:
+BodyBag - Grid list of all body parts
+Stats - See Player/Monster skills
+
+
+Stats:
+Health - Total health pool
+Strength - Modifier added to physical damage (+1 physical damage per point)
+Intelligence - Modifier added to magic damage/effects (+1 magical damage per point)
+Dexterity - Influences hit chance + crit chance (+5% hit chance, +1% crit chance per point)
+Speed - Influences turn order + dodge chance (+5% dodge chance)
+Defense - Reduces incoming physical damage (-1 physical damage per point)
+Will - Reduces incoming magic damage (-1 magical damage per point)
+
+Stat Averages
+Health - 10 (low), 25 (medium), 50 (high/boss)
+Other stats: 2 - 5 - 10
+
+Player Stats+Skills
+---
+MC Stats:
+Health - 10
+Strength - 2
+Intelligence - 8
+Dexterity - 3
+Speed - 6
+Defense - 2
+Will - 7
+Total (27, 37 with Health)
+
+MC Skills: 
+Scalpel Stab - Deal 1 Physical Damage (80%) (If kill, +1 limb at end of fight)
+Mark - Deal -6 magic damage to an enemy, inflicts 'Mark' (100%)
+Stitch - Opens BodyBag menu to attach a new part to Monster and heal 4 HP (only usable if a slot is empty and there is an available part)
+
+Chimera Stats:
+Health - 18
+Strength - 5
+Intelligence - 3
+Dexterity - 5
+Speed - 4
+Defense - 6
+Will - 4
+Total (27, 45 with Health)
+
+Chimera Default Actions:
+
+- Bite: 
+- Limbless Flail: 0 damage (40%)
+
+Enemy Designs:
+---
+Ooze
+Health - 24
+Strength - 5
+Intelligence - 2
+Dexterity - 3
+Speed - 2
+Defense - 5
+Will - 3
+
+Skills
+- Slime Slap - Deal 1 Physical Damage (80%)
+- Regenerate - Heal 0 (+int) health
+
+Witch
+Health - 14
+Strength - 2
+Intelligence - 7
+Dexterity - 4
+Speed - 1
+Defense - 2
+Will - 5
+
+Skills
+- Hex - Deal 0 Magical Damage (40%)
+- Leadening Curse - Inflict Slow (-5 speed)
+
+Vampire Bat
+Health - 12
+Strength - 3
+Intelligence - 2
+Dexterity - 4
+Speed - 7
+Defense - 3
+Will - 2
+
+Skills
+- Wing Attack - Deal 0 damage (85%)
+- Screech - Increase own aim against target by 30%, reduce target defense by 3
+
+Formidable Foe Crab
+Health - 36
+Strength - 6
+Intelligence - 3
+Dexterity - 5
+Speed - 5
+Defense - 6
+Will - 0
+
+Skills
+- Crush Claw
+- Evasive Scuttle
+- Tidal Slam
+
+Tatzelwurm
+Health - 15
+Strength - 4
+Intelligence - 4
+Dexterity - 3
+Speed - 7
+Defense - 2
+Will - 1
+
+Skills
+- Poison Breath
+- Tail Lash
+
+Combat Flow:
+
+Selection Phase:
+Player sees their options as UI elements
+List of Behaviors player can use
+
+Pick one (Mark) > Target Select, one enemy sprite flashes (selected), player can change selection by using up/down commands, once they press 'ACCEPT' again, end Selection Phase and move to Execution Phase.
+
+Execution Phase:
+At start of Execution Phase: All non-player entities choose a behavior from their list of available behaviors (1-3 for enemies, more for the Chimera), and choose targets randomly.
+Game calculates turn order based on speed rolls (all entities roll 1d3 + Speed)
+In turn order, each character executes their action. If an entity is downed before its turn begins, it will not execute its action.
+
+List of Skills:
+Ooze
+(Arm)
+- Slime Slap - Deal 1 Physical Damage (80%)
+- Regenerate - Heal 0 (+int) health
+
+Witch
+(Arm)
+- Hex - Deal 0 Magical Damage (40%)
+- Leadening Curse - Inflict Slow (-5 speed)
+
+Bat
+(Arm)
+- Wing Attack - Deal 0 damage (85%)
+(Head)
+- Screech - Increase own aim against target by 30%, reduce target defense by 3
+
+Crab
+(Arm)
+- Crush Claw - 1 Damage, Bind (70%) (Cooldown:1Turn)
+- Tidal Slam - 5 Damage (80%) (Cooldown:1Turn)
+(Legs)
+- Evasive Scuttle - +5 Speed until EOT
+
+Tatzelwurm
+(Head)
+- Poison Breath - Inflict Poison 2 (60%)
+- Tail Lash - Inflict Bleed 2 (60%)
+
+List of Status Effects:
+Mark - Marked enemies are more likely to be targeted by AI
+Bleed X - Bleeding enemies take X damage at the start of their turn in execution phase and have -X/2 (round down) strength (no action if die)
+Poison X - Poisoned enemies take X damage at the start of their turn in execution phase and have -X/2 (round down) Intelligence (no action if die)
+Bind - Bound enemies have -15% dodge and +3 damage from attacks
+

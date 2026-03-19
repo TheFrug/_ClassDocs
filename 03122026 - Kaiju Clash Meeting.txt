@@ -1,0 +1,96 @@
+03122026 - Kaiju Clash Meeting
+
+Focus on Shohebra over Kajorin.
+Polish is king. Quality > quantity.
+
+Professor Murray will be out of town the week following Spring Break
+
+Next Meeting: April 3rd
+
+Shohebra Abilities:
+How much Doom does each building destroyed add, how much do monster objectives add, how much do player kills add, how long do I expect the game to take?
+Take these numbers together and tune them
+"We are anticipating 10 player deaths per match and a building destruction rate of one building per 5s. We want match to last 10 minutes. At what rate do we need to award points."
+
+Save running multiple Hunter scriptable objects against each other until later
+
+Current goal: Figure out what the experience of sitting down and playing the game are and tuning that.
+Is it fun, is it lasting too long, does the player's damage amount feel good, is it commensurate with the monster's progression, can the matches be close? These are the most important questions right now. 
+
+Once we have more time to play with it (playtesting), then we can tweak the players.
+
+Past the idea phase, gotta make a spreadsheet with numbers and progression.
+Damage scaling, XP scaling, gotta figure out how the Doom meter feels good.
+Until we play it, we don't know if being a monster and destroying buildings will be fun to do.
+What are the things from that we can tune?
+
+Creating the hunters as characters comes later. Chris should sit tight on this project and focus on other work.
+Request for Chris: Keep playing as Hunter and Kaiju to keep testing the movement systems.
+Minions: What do players get from enemies? What is the Hunter's progression. What do they unlock if they unlock anything at all? At what rate do they unlock things? 
+They can rescue worker bots, killing minions.
+How many minions do we need, how much experience do they give? Mapping scaling things is the most important right now. 
+
+New Skill: Figure out how to run a simulation in excel. Plug in the numbers, test balance chambers, all in parallel to the game's development. Use this process to determine what numbers we use.
+
+Excel is an important skill for game designers. Visual Basic for Excel (works for Excel app). 
+
+Being able to run simulations to find probability, expected rate from sample x-y for something like "buildings destroyed per match", running the simulation 1000 times.
+Buildings destroyed per second, player deaths per match, can also modify based on damage needed to destroy building, doom per building, how much DPS the Kaiju is taking spread across the whole match (in phases)
+Start: 0-500
+Mid: 500-1250
+
+Can also look at Hunter and determine what stats are pivotal to how they play. Taking a speed and figuring out probability of X catching up to Y.
+
+Fighting game simulations.
+
+Figuring out what we need for next month. 
+Planning playtests: IDF, QA club, SGDA, 
+
+I can do producer-y tasks instead of designerly tasks. 
+
+As far as design: its more about refining than coming up with new ideas. 
+Survey, players can rate things they want. 
+"How satisfying was playing as the Kaiju"
+"How satisfying was X, Y, and Z"
+Suggestion box at the end.
+
+Brandon knows more excel than Microsoft itself
+
+Rather than: launch editor, try it, close it, change numbers.
+
+Spreadsheet to run simulations of numbers
+
+Entry level designer positions will involve mathing stuff out and finding edge cases
+
+Go on GameIndustry.biz and designer blogs: read what they do day-to-day
+One by Dust's creator breaking down how he balances CS maps based on how long it takes players to get from spawn to other parts of the map. Determines how efficiently defenders can defend and so on. 
+
+Putting the crunch behind the ideas.
+
+Moving Forward: Release an Alpha build version (not even Beta). Proof of Concept. 
+Take as much documentation as possible, don't worry about running it past the end of the semester.
+
+How to Leverage the project: Take it to:
+- Dallas Society of Play
+- Submit to GDC Indie
+- Submit to PAX Unpub
+- Local stuff: Tinycon, small anime convention (if we can get a booth without paying a bunch of money)
+- Find game dev communities online and talk about it there
+- Post clips on social media
+- GameDev Reddit (shudder)
+- SOP Discord; ask questions
+- IGDA Discord; ask questions
+Find community events
+- Game Developer coffee events. Ask around about feedback
+- Gamedev Drinkup
+- Don't go there like GIVE ME ADVICE just ease into bringing it up. 
+- Unfortunate reality of networking.
+
+The good thing is not the thing itself, but that I am working on a cool project, 
+Capture video of the early version, put it on youtube, put it in the box so you can show people easily.
+
+Demo Reel; Early gameplay footage. Just needs to be a thing that shows off the game and shows the gameplay, movement mechanics, kaiju mechanics, clip of playtest matches. The cool stuff. Something to easily show people.
+
+Also stuff to put on the Portfolio.
+
+Ludemdere

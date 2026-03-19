@@ -1,0 +1,9 @@
+* Need full sequence events working as intended, no hand waving. Both blockout and overall puzzle need more to them.
+* Identify major checkpoints and connect the dots. Do multiple iterations if you feel lost and compare ideas.
+* Try to utilize the verticality more and not just ramps to next boxed in space, make dynamic areas that engage the player and force them to use the tools of the camera. Could candles be across a chasm that is untraversable but you can affect?
+* Don't worry about more attachments until base flash puzzle level is finished. If you finish first puzzle to completion, consider adding more.
+* Does jumping matter? Consider removing if it's not important.
+* Through either(or more likely a combination) of the blockout or introduction of art, you need to make the spaces feel like what they are. E.g. Cave should feel like cave, temple like temple etc.
+* Need more information about light being broken, or whatever restriction to using flash.
+* Need general feedback for things, e.g flash should visually exist outside of just candles adjusting, camera shutter etc
+* Base lighting pass, try to establish a mood.
