@@ -1,0 +1,7 @@
+Need more clarity on how sunlight can be used, sometimes the door is lit with sun, sometimes it's above door. Likely, have a separate statue like you are using for primary door puzzle will be your catalyst.
+Try to justify lights-purple crystals? light cracking through cave? Figure out what that is.
+Justify doors and architecture some if possible, build architecture into stone akin to petra or other similar locations. Probably need to just make a semi decent triplanar material that blends things together well, even if you keep simple shapes
+Need to cleanup collision, there are a lot of odd collision traps that may occur, consider some invisible collision, or outlining areas more carefully where player dropping would cause issue. 
+Would caution on relying on narration to guide player. Players don't listen or read
+Recommend just focusing on perfecting the initial light cave and not what happens after. If there is time after, consider adjustments.
+Need to clean up existing camera bugs, try to bullet proof any weird sequencing player can do.s
