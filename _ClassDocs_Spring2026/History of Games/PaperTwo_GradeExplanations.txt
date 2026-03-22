@@ -69,4 +69,129 @@ Features: Evolution, Link Cable Connection, mascot Pikachu
 99
 -1 Italicize game titles
 
+*Antania Boston - Rayman Legends WHICH RELEASED IN 2013?????
+Goal: Synthesize narrative, art, and music to create a sick game
+Features: Narrative, Art, Music
+AI RISK - The sources are clearly sourced from ChatGPT.
+00
+
+*Emily Broyles - Kirby's Adventure
+92
+Goal: Create a game that appeals to everyone, veterans and newcomers alike (Missing quote from dev backing this up; never mind its in the last paragraph)
+Features: Copy ability (new feature), Expanded screen space, the previous game already existing?
+-10 Your third body paragraph's feature seems to be the existence of Kirby's Adventure's predecessor, Kirby's Dream Land. An entire other game doesn't count as this game's feature. Instead, you should have focused on a specific element that was lifted from one game into the next. 
+
+There are also instances of awkward writing in this paper that a second pair of eyes might have caught on a proofread. 
+
+* Seth Bunton - Castlevania: 
+95
+Symphony of the Night
+Goal: Expand player freedom through story and RPG elements.
+Features: RPG elements+multiple endings, exploration elements, new cooler combat
+
+*Michelle Campoy - Super Metroid
+50
+Goal: Make a good sequel
+Features: Exploration (-1 point for implying Metroid and Metroid II didn't have vertical exploration), 
+Awful writing that sometimes makes sentences unreadable.
+Not proofread even a little bit
+PLAGIARISM RISK. I DONT THINK THIS PERSON PLAYED METROID. 
+This essay is underdeveloped does not fulfill the requirements of the prompt. Throughout the paper, you only define one feature of Super Metroid that contributed to accomplishing the developer's intent, that being the exploration elements. The developer's intent is also missing a citation, which would have helped as it isn't clearly defined. 
+
+This paper also contains many grammatical and syntactical issues, some of which render certain sentences in this essay unreadable. 
+
+For example, the following:
+
+"Expanding on the foundation that the two previous Metroid games established to the point of kick-starting the Metroid Part of the metroidvania genre."
+
+is not a complete sentence.
+
+*Ollie Carson - Big Fun in Furbyland
+85
+Goal: Make a fun game for young kids to introduce them to furby
+Features: Customization options, simple minigames, caring section
+-5 The first supporting feature is 80% describing Furby minigames and 20% analysis. After each description, you identify that the minigame is made for children, but the analysis could go deeper.
+-5 Similar to feature 1, this paragraph is too much description. I don't really care that the baby furby has different lighter color options. I want more analysis of how this feature will accomplish the two-part developer goal you set up in the thesis: appeal to young kids and get them into loving the Furby mascot.
+-5 Again, too much description, not nearly enough analysis.
+-15 The developer intent outlined in this paper is a unique one, as it has two steps: Appeal to young kids with the simple game design and then foster a love of the Furby mascot in them through the game. I was looking forward to your explanations of how the three supporting features contribute to this plan, but it didn't really happen.
+
+In each of your supporting paragraphs, you spend about 80% of the wordcount describing Big Fun in Furbyland without much in the way of analysis. I don't care that the baby furby has different colors; what I want is for you to analyze how this Furby customization feature helps the developers achieve their goal.
+
+I really like that you emailed Hasbro about this topic to get a quote. That is a definite first.85
+
+*Jason Castro - Half-Life
+91
+Goal: FPS + Story
+Features: GoldSrc engine, mechanics, story
+There are a lot of descriptions of aspects of Half-Life, but in many places, you come just short of tying the features you describe back into the developer goal of creating a story-driven FPS game. This paper also suffers from repetitive writing that should have been caught on a proof-read. 
+
+-2 points for failing to tie your first feature back to thesis
+
+-3 points for overgeneralizing 'game mechanics' as a feature. This section should have focused on a particular kind of mechanic in order to tie that into your thesis, such as by focusing on the game's use of scripted events to move the story forward without removing player agency, thus improving player immersion into the narrative.
+
+-1 point for lack of context for Reylo Media quote. 
+
+-2 points for incorrect developer citation. The in-text citation references Laidlaw. When I dug into this, I found that you have a yahoo news article as your citation for Laidlaw on the creation of Half-Life, rather than his own website, which is a primary source. The Yarhoo News article links to his website near the top. 
+
+-1 points for repetitive writing.
+
+*Nurin Chanthai - Super Mario 64
+99
+Goal: Intuitive 3D gameplay
+Features: Versatile movement, 360 analog stick, non-linear structure
+Im grateful this one is really good.
+-1 Some grammatical issues
+
+*Milana Chhean - Final Fantasy VII
+99
+Goal: Immersive/complex without overwhelming players
+Features: Menu System part of gameplay, ATB system, 3D visuals
+-1 italicize all game titles
+
+*Sammie Dawson - Super Mario 64
+80
+Goal: Encourage players to create own solutions to in-game puzzles and attempt whenever
+Features: 3D jumping mechanics, 3D platforming (the same thing), Controllable camera
+
+-1 Second paragraph says the same thing three times in 3 sentences in 3 slightly different ways. 
+-10 This paper only has two features described in it. 3D Platforming and 3D jumping are arbitrarily split into two features in this paper despite describing the same system of mechanics and controls.
+-3 In your camera paragraph, you describe the player's control of the camera as one of the problems that players need to create unique solutions for. This is most likely not the developer's intent.
+-2 points for incorrectly stating that Super Mario 64 was the only 3D platformer.
+-2 points for incorrectly stating that 3D jumping had never been tried before Super Mario 64
+-1 points for incorrectly stating that Super Mario 64 was the first game with a controllable camera.
+-1 General grammatical issues
+
+*Christian De Santiago - Final Fantasy VII
+Goal: Cinematic RPG
+Features: Cinematic style, Materia, profound themes
+-3 Materia section is underdeveloped and fails to wrap around back to the developer intent of creating a cinematic RPG
+-3 Themes section doesn't illustrate how the game integrates its narrative themes into the game. 
+
+*D'Lee Dillard - Fallout
+95
+Goal: Succeed Wasteland and be intricate and awesome
+Features: Stat customization, DnD-like openness, Unique thematic
+-1 Some awkward writing in places. 
+-1 Final paragraph has a long quote without any context. 
+-3 PressX citation is not a credible citation to verify Fallout's influence on other games
+
+*Isaak Dispensa - Sonic the Hedgehog
+Goal: 
+Features: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
