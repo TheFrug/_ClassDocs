@@ -176,8 +176,247 @@ Features: Stat customization, DnD-like openness, Unique thematic
 -3 PressX citation is not a credible citation to verify Fallout's influence on other games
 
 *Isaak Dispensa - Sonic the Hedgehog
+85
+Goal: Make a game with style/arcade-ish (missing citation (there is a citation, but its about the speed mechanics)
+Features: Mechanics, visuals, soundtrack, replay value
+-2 Your thesis paragraph states two different developer goals:
+1. Create a game with distinct personality and style
+2. Bring arcade gaming into the home
+-1 You state "'Pinball style mechanics' was the initial goal of this game", which adds to the arcade-like experience thing, but still no developer quote about that.
+-5 Paragraph about music doesn't tie back into the developer goal of arcade-style gameplay. No mention of the Genesis's sound chip bringing console soundtracks closer in quality to arcade sound.
+-5 Paragraph about visuals does not tie back into developer goal of arcade-style gameplay
+-2 Most YouTube channels are not considered credible sources for this class.
+
+*Edgar Fuasto - Half-Life
+99
+Goal: Create an immersive unintrusive experience
+Features: Innovations, level design, AI
+Lack of cutcenes
+-1 Some grammatical issues here and there, but nothing major.
+I wish I could give you points for your use of superscript numbers for your citations. 
+Excellent work!
+
+*Jude Favrot - Sonic the Hedgehog
+88
+Goal: Create a unique platformer/beat mario
+Features: Fast action, character design, stage creation for its time (what)
+-5 Yuji Naka quote doesn't support thesis
+-1 Typos, such as incorrect use of the phrase "for a living". Sonic does not get paid to destroy robots.
+-5 Paragraph about level design fails to tie into thesis. How does the level design support Sega's goal of challenging Mario? I can't tell from this paragraph.
+-1 Italicize all game titles
+
+*Kristen Fazzini - Sonic the Hedgehog
+
+Goal: Challenge Mario
+Features: Speed, Level Design, Character
+-1 Paragraph about speed/movement could have done without defining inertia, but otherwise excellent analysis.
+-1 Some typos, such as in the works cited page where it says "Spiro the Dragon" instead of "Spyro"
+
+*Chloe Fore - PaRappa the Rapper
+
+Goal: Make something unique stylistically and mechanically
+Features: Art direction, catchy songs, mechanics
+-5 Paragraph about the soundtrack does not tie back into the thesis about the developer goal
+-2 The claim that PaRappa helped popularize the rhythm genre is true, but should have been backed by a citation.
+-5 Missing citation verifying that PaRappa the Rappa influenced Friday Night Funkin
+
+*Joshua Forssell - Diablo
+
+Goal: Create a unique action-packed game/Gamify DnD
+Features: Real-Time Combat, RPG mechanics, generated experience
+-3 Quote from David Brevik is not contextualized (the interview was taken several decades after Diablo's original release), and does not support the paper's core argument about the developers intending to emulate the fun of DnD
+
+*Hunter French - Donkey Kong Country
+44
 Goal: 
-Features: 
+Features: Art direction, music, aesthetic
+-1 Italicize all game titles
+-5 Thesis is missing citation from a developer. 
+-50 Missing last half of the paper, which includes the third
+supporting feature and this game's influence on future games. 
+
+*Breanna Frost - Riven
+
+Goal: ??? Not stated
+Features: Worldbuilding, live action + animation, environmental puzzles
+-5 Paragraph about worldbuilding is mostly plot explanation with minimal analysis. Worldbuilding comes from so many places in the Myst games other than its written text, such as in the layouts of their environments, yet you only focus on summarizing the plot and Linking Books.
+-20 At no point in this paper do you clearly state the developer's goal with Riven nor do you support it with a citation. In the very last paragraph, you notion towards the intuitive goal of any sequel, to improve upon the original, but this is not substantiated throughout the paper enough to count as your thesis. 
+-1 Citation of Blue Prince is missing from works cited page
+-3 Many confusing word choices and other typos, such as the first sentence of your second paragraph:
+" the world building is only seen through the attempt(?) of an open world in a point and click adventure"
+
+*Ella Gaupp - Pokémon Red
+
+Goal: Capture childhood community and curiosity
+Features: Companion Game, large pokedex, combat system
+-3 Developer intent is not supported by a citation
+-3 Palworld citation missing
+
+*Behrouz Ghodsi - Resident Evil 3: Nemesis
+
+Goal: Create feeling of fear and unpredictability via chaser enemy
+Features: Nemesis, Live Selection, cinematic horror
+
+-3 Developer citation needs to be a direct quote, not paraphrasing.
+-5 Missing citation verifying Resident Evil 3's influence on Alien: Isolation
+
+*Chloe Gore - Castlevania: Symphony of the Night
+100
+Goal: Change up Castlevania
+Features: New protag, RPG elements, map design
+
+ITS PEAK
+
+*Breietta Greenwood - Harvest Moon
+65
+Goal: Relaxing+Unique
+Features: Art Style, Game mechanics, no third thing?
+This paper effectively has two supporting features rather than three. Your analysis of Harvest Moon's art style is broken into two paragraphs, but both concern the same feature: the art style. 
+-20 For missing a supporting Feature
+-5 Paragraphs about art style are heavy on description and light on analysis. 
+-10 Paragraph about mechanics is underdeveloped. Once again heavy on describing Harvest Moon (which I have played).
+"These core mechanics of Harvest Moon became incredibly popular" needs a citation or clarification because I would not describe nonviolence and farming as 'incredibly popular' mechanics. 
+
+*Martin Hoang - Thief Gold
+100
+Goal: Stealth + Nonlinear play
+Features: Environmental effects, freedom of approach, enemy strength
+
+*Jason Hollander - Thief: The Dark Project
+77
+Goal: Stealth Focus
+Features: Level Design, lighting, sound design
+-5 Sound design section is underdeveloped and unfocused
+-10 Influence on future games section is very underdeveloped. Quote from Ryerson is preceded by series of words that I cannot parse and do not contextualize the citation following them.
+-3 Italicize and Capitalize all game titles
+-5 Missing Dishonored citation
+
+*Jayden House - Gran Turismo 1997
+68
+Goal: Realistic and Authentic racing experience
+Features: physics, authentic cars, authentic progression system
+-1 Strange word choice in some spots
+-5 The second paragraph confuses me, where you provide many quotes that support the same goal of creating realistic physics simulation. Despite all these quotes relating to the same core goal, you present them as separate goals. This entire paragraph is redundant.
+-20 Missing supporting feature section about authentic cars
+-6 Developer citation about Forza Motorsport is not only missing from works cited page, but it doesn't support the idea that Gran Turismo was influential, as the ultimate decision from the devs was to shy away from Gran Turismo's influence.
+
+*Tien Huynh - Mega Man X4
+84
+Goal: Give Zero a distinct experience from X
+Features: Attack methods, Special Skills, Attack control combinations
+-1 Italicize all game titles
+-5 Paragraph about special skills is redundant and lacks meaningful analysis. 
+-5 There is a LOT of repetition in this paper, such as the repeated statement that X is a marksman while Zero is a melee fighter. 
+-5 Developer quote about Hollow Knight doesn't substantiate the claim that Hollow Knight was influenced by Mega Man X4
+
+*Santiago Uriel Islas Sanchez - Kirby Super Star
+
+Goal: Omnibus approach to game  structure
+Features: Co-Op, Combat, nothing
+The thesis of this paper appears to be that Sakurai's goal with Kirby Super Star was to employ an 'omnbibus' structure composed of many smaller games in order to ensure players could have a lot of content without it getting stale. Neither of the two (not three) supporting features you discuss connect back to this thesis.
+-10 Points for lack of connection to thesis in supporting feature sections.
+-20 Missing third supporting feature.
+-1 Italicize all game titles
+-1 Some typos ('ladder' vs 'latter')
+-5 Spark the electric jester citation is missing.
+
+*Charlie Ixel - Resident Evil
+98
+Goal: Fear as a construction/structure
+Features: Fixed angles, scarcity, hardware limitations
+-1 "gargantuan rift" quote is missing a citation.
+-1 Dead Space did not release in 2023
+AI RISK: Stop rewriting using AI
+
+*Caleb James - Super Mario 64
+LATE - 0 (would be a 100)
+Goal: Change gaming culture with 3D movement
+Features: 360 analog stick, expanded move set, controllable camera
+
+*Ana Jiminez - Donkey Kong Country
+
+Goal: Graphically impressive visuals + smooth level design
+Features: Digitized models, level design, 
+
+-5 Third paragraph about sound design does not tie back into thesis about developer intent.
+-5 Missing Nikoderiko citation in works cited page
+
+*Anthony Kalmbach-Poole - Super Metroid
+88
+Goal: "Not just challenge, but atmosphere" (AI DOGSHIT)
+Features: Ability-gated level design, Subtle environment guidance, Sound/visual atmosphere
+AI RISK
+-3 Thesis about developer risk is not substantiated by a citation
+-3 Use paragraph breaks
+-1 Italicize all game titles
+-5 Missing citations for Hollow Knight and Axiom Verge
+-1 Works Cited page is missing links to webpages referenced
+
+*Trhea Karthigesh - Quake
+
+Goal: Use 3D in an FPS (new)
+Features: Interactive environment, HUD, Progression
+Your thesis is that John Carmack and the makers of Quake wanted to revolutionize the FPS genre by leaping into 3D, but none of your supporting paragraphs relate back to this central argument, making the paper unfocused as a whole. 
+-8 Paragraph about the interactive environment is underdeveloped and fails to relate to the thesis
+-3 Paragraph about the HUD  fails to relate back to the  thesis
+-3 Paragraph about progression fails to relate back to the thesis.
+-1 Italicize all game titles
+
+*Antonio Killebrew - Metal Gear Solid
+100
+Goal: Invoke suspense
+Features: Roaming enemies, radar, evasion mode
+Fucking fantastic
+
+*Lara Luisa - Sonic the Hedgehog
+100
+Goal: Speed platformer
+Features: Curvilinear level design, enemy spawn times, forgiving ring system
+Fantastic work!
+
+*Kimberly Lopez
+96
+Goal: Push technical capabilities of N64 while keeping players immersed in narrative-driven action-adventure experience (not supported by citation)
+Features: Open-world exploration, dungeon design, atmospheric audio/visual design, innovative combat mechanics.
+Impressive work
+-1 Typos (sown vs sewn)
+-3 Missing citations for both Okami and Dark Souls, which are both mentioned in this paper.
+
+Maite Lopez - Sonic Adventure
+50
+ASK MONICA EVANS
+This paper feels like it was written by two authors, or with some ChatGPT, or something
+Goal: Make a modern 3D sonic game
+Features: Cinematic story, playable characters, 'balancing camera systems', adding physics, incorporating 3D level designs, constructing new hardware, creating a soundtrack
+WTF
+This essay lists seven supporting features in the first paragraph, and it isn't clear which three you are focusing on until later in the paper. This leads to a confusing structure, especially in the first half. For instance, the third paragraph starts out focusing on the 3D environments. Partway through, it then begins to list out several mechanics at seemingly random with minimal analysis, including the multiple playable characters, which is the feature you focus on in the very next paragraph.
+You should really be proofreading your work before submitting.
+
+-20 Half of the sentences in this paper have typos, ranging from slight grammatical issues to sentences that are impossible to understand.
+-5 Your in-text citations are appearing seemingly at random, as I can't tell what parts of the sentences containing them are quotes from those sources.
+
+*Avery Lovett - Tomb Raider
+
+Goal: Combine Prince of Persia and Indiana Jones
+Features: 3rd person camera, female protagonist, environments similar
+-1 Italicize game titles everywhere, including citations
+-3 Missing citations for Prince of Persia and Indiana Jones
+
+*KeLi Lumampao - Disney's Aladdin
+65
+ASK MONICA EVANS
+Goal: Make an easy game based on the movie (not substantiated by citation)
+Features: Art Style, level structure, narrative choice
+
+This paper seems split between two developer goals as the thesis. The first you state is that the developers wanted to create an easy game base on Aladdin. The second is that the game is meant to be a visually impressive game with great animation that faithfully adapts the movie. The problem is that the your evidence and quotes only really support the second one. Your developer quote from Horowitz supports the second developer goal. 
+On a side note, the quote from Horowitz is not anywhere in the article linked. This is troubling.
+
+-2 Paragraph about art style is not tied to first thesis, but is tied to second thesis
+-8 Paragraph about level structure is surface-level and is not tied to either potential thesis
+-12 Section about narrative choice is basically nonexistent, being wedged into the end of a long and unfocused paragraph
+-3 Lots of typos and confusing sentences that a proof-read should have caught.
+
+
 
 
 
