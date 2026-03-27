@@ -1,0 +1,4 @@
+- lit torches outside abandoned cave/temple?
+- STILL no artifacts as POI in both rooms (we have an empty room and a cone room)
+- Central column in cave's first big room now blocks view coming from the doors, it was meant to have a more stalagtite shape where only some of the thin stones reach all the way up to the ceiling.
+- Mirror puzzle room still has placeholder cubes (no mirros, no crystal shining light)
