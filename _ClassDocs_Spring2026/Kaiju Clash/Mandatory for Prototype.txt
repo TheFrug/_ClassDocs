@@ -1,0 +1,8 @@
+Mandatory for Prototype
+
+- Fireable weapons for Hunters
+- Kaiju health bar display
+- Doom Meter (S wins game instantly)
+
+Stretch for prototype
+- Implementing unique Shohebra functions (static field, laser, etc.)
