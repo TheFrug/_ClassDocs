@@ -1,0 +1,27 @@
+Lecture Outline
+Intro - 
+- Introduce myself, the two live-service games I worked on (Trickshot and Kaiju Clash)
+- Tell Concord story
+- Ask why it happened?
+
+Part 1 - Intro to GaaS. How its different from other games, examples, discussion of examples+genres.
+- Definition
+- Introduce examples
+- Draw similarities between:
+-- Long-term engagement
+-- High skill-ceilings
+-- Structure that supports continuous updates
+- Its Labor intensive and expensive; Why would they do this?
+Part 2 - $$$$$$ - A history of GaaS monetization tools (whether originated from GaaS or not)
+- DLC + Microtransactions
+- Free to Play revolution
+- Loot Boxes + Whale economics
+- Battle pass era
+- Live service saturation + Collapse (Concord)
+Part 3 - Why it matters; GaaS as fraud + games preservation fail
+- Define Service vs Goods, distinguish rights between them.
+- Introduce the conept of a license; perpetual vs subscription
+- ???
+
+
+Guest slides ok?

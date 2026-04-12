@@ -1,0 +1,21 @@
+Hierarchy Tactics Game
+- Fire Emblem-level complexity; character classes are the same as enemy classes, player units have better stats and abilities. 
+
+Key Features:
+- Grid-based Environmental manipulation
+- Hierarchy system that allows units to have subordinates
+
+We want to use this project as an opportunity to learn how to develop a polished demo, pitch our work to publishers, and potentially create a studio in the long run.
+
+Mercenary Band Manager - Mercenaries by day, musicians/tavernkeeps by night
+OH FUCK our sous chef just died
+
+Target audience: People who like strategy games, people who like character-driven stories, people who like playing favorites.
+
+
+Core concept: Player commanding small army of units
+
+Sai Mangipudi and I aim to work together to develop a game/demo to publish on Steam and Itch.io. Our goal is to use this project as an opportunity to develop a polished game, learn to pitch our work to publishers, and gather funding to potentially create a studio together in the long run. 
+Our current concept is Thieving Cooks, a character-driven RPG that flips between grid-based battles and restaurant management. The player takes the role of Bridge, the leader of a band of adventurers, the Thieving Cooks, a rag-tag gang of mercenaries and outcasts with dreams of getting out of the monster-slaying and treasure-seeking business before they get too old or too dead to continue. To accomplish this, Bridge opens a restaurant and employs his entire group, with the group taking adventuring jobs by day to support the restaurant they run in the evening.
+A central element of Thieving Cooks is its hierarchy mechanic, where the player can select certain units and promote them either in battle or within the restaurant, allowing those promoted units to manage a squad of AI-controlled units, with the behavior of those AI units being based on the leading units' disposition and stats. This system aims to simulate the way people act when vested with leadership, as well as how people respond to being led by different leadership types. 
+
