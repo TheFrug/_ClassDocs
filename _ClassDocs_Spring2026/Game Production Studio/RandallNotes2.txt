@@ -4,4 +4,6 @@ Justify doors and architecture some if possible, build architecture into stone a
 Need to cleanup collision, there are a lot of odd collision traps that may occur, consider some invisible collision, or outlining areas more carefully where player dropping would cause issue. 
 Would caution on relying on narration to guide player. Players don't listen or read
 Recommend just focusing on perfecting the initial light cave and not what happens after. If there is time after, consider adjustments.
-Need to clean up existing camera bugs, try to bullet proof any weird sequencing player can do.s
+Need to clean up existing camera bugs, try to bullet proof any weird sequencing player can do.
+
+Breaking down walls
