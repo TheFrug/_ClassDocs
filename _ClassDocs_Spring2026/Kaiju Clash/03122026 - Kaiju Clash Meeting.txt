@@ -26,7 +26,7 @@ What are the things from that we can tune?
 
 Creating the hunters as characters comes later. Chris should sit tight on this project and focus on other work.
 Request for Chris: Keep playing as Hunter and Kaiju to keep testing the movement systems.
-Minions: What do players get from enemies? What is the Hunter's progression. What do they unlock if they unlock anything at all? At what rate do they unlock things? 
+Minions: What do players get from enemies? What is the Hunter's progression. What do they unlock if they unlock anything at all? At what rate do they unlock things?
 They can rescue worker bots, killing minions.
 How many minions do we need, how much experience do they give? Mapping scaling things is the most important right now. 
 
