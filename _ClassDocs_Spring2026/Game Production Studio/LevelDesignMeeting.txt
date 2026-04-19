@@ -1,0 +1,27 @@
+Intro - Storage room
+Start high up on boxes + broken glass
+One/two worker dude in the room to intro combat
+
+Suspension Walkway
+- Vats are platforms player can stand or jump on, they stretch down into the killvolume nothingness
+
+Central Pit
+- Side wings as well for player to walk on
+- Big piston in middle
+
+Conveyor belt room
+- Rectangular
+- Conveyor belt on side the player can optionally stand on
+
+Maintenance Shaft
+- Cramped
+- Red light
+
+Final Encounter - Major production line
+- Central pillar for Overseer to stand on and bark orders
+- Scaffolding/some kind of vertical platforms to put enemies + player on
+- Player must ascend
+
+Encounter Flow:
+- All enemies start spawned in room?
+- Wave system: first three enemies start in room -> kill them -> next wave of 3 spawns -> kill them -> door opens
