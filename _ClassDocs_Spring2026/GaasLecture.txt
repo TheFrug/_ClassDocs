@@ -1,18 +1,21 @@
 Lecture Outline
-Intro - 
+Intro
 - Introduce myself, the two live-service games I worked on (Trickshot and Kaiju Clash)
 - Tell Concord story
 - Ask why it happened?
 
-Part 1 - Intro to GaaS. How its different from other games, examples, discussion of examples+genres.
+Part 1 - Intro to Live-Service Games. How its different from other games, examples, discussion of examples+genres.
 - Definition
+Separate definitions for Live Service Games and GaaS?
+Live-service game: A game that requires an always-online connection or provides continuous online content/updates and community-driven events (examples: World of Warcraft, Destiny).
+Games as a Service (GaaS): A commercial model framing a game as an ongoing service rather than a one-time product; emphasizes recurring monetization, content updates, and a license-based access rather than an owned product (examples: League of Legends, Fortnite, Overwatch).
 - Introduce examples
 - Draw similarities between:
 -- Long-term engagement
 -- High skill-ceilings
 -- Structure that supports continuous updates
 - Its Labor intensive and expensive; Why would they do this?
-Part 2 - $$$$$$ - A history of GaaS monetization tools (whether originated from GaaS or not)
+Part 2 - $$$$$$ - A history of Live-Service monetization tools (whether originated from Live-Service or not)
 - DLC + Microtransactions
 - Free to Play revolution
 - Loot Boxes + Whale economics
@@ -22,5 +25,10 @@ Part 3 - Why it matters; GaaS as fraud + games preservation fail
 - Define Service vs Goods, distinguish rights between them.
 - Introduce the conept of a license; perpetual vs subscription
 - ???
+- Call to Action: Contact the devs of live-service games you like and ask them about their end-of-life plan for the game.
 
 Guest slides ok?
+Resources to pull up during lecture: 
+- WIPO website
+- SKG
+- Court cases? I have the slides from Ross Scott but I need to update them I think because new court cases have added to the file? I guess if I don't need to prove without a shadow of doubt that these games are fraud and I base the last section of the lecture more conceptually, I can get away with not having every citation super exact because I'm not actually in court. 
