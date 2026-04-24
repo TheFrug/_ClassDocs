@@ -1,0 +1,37 @@
+Questions to ask later in meeting
+
+For Vy: Is it easier to have two elements or four? Is having multiple fire spells of the same type easier?
+
+- Earth is most challenging
+- Others can function from same particle system
+- Not undoable, not that time-consuming
+
+
+First five spells we want:
+
+First Five
+
+Fireball
+Aqua Shot
+Needle
+Shock
+Dash
+Magic Missile
+
+Second Five
+
+Fire Daggers
+Restoration
+Rock Shield
+Chain Lightning
+Dematerialize
+
+Third Five
+
+Flame Aura
+Water Whip
+Terra Punch
+Siphon
+
+Stretch Goals
+Firebreathing
