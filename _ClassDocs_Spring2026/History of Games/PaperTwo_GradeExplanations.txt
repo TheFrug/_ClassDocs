@@ -206,7 +206,7 @@ Features: Fast action, character design, stage creation for its time (what)
 -1 Italicize all game titles
 
 *Kristen Fazzini - Sonic the Hedgehog
-
+98
 Goal: Challenge Mario
 Features: Speed, Level Design, Character
 -1 Paragraph about speed/movement could have done without defining inertia, but otherwise excellent analysis.
@@ -221,7 +221,7 @@ Features: Art direction, catchy songs, mechanics
 -5 Missing citation verifying that PaRappa the Rappa influenced Friday Night Funkin
 
 *Joshua Forssell - Diablo
-
+97
 Goal: Create a unique action-packed game/Gamify DnD
 Features: Real-Time Combat, RPG mechanics, generated experience
 -3 Quote from David Brevik is not contextualized (the interview was taken several decades after Diablo's original release), and does not support the paper's core argument about the developers intending to emulate the fun of DnD

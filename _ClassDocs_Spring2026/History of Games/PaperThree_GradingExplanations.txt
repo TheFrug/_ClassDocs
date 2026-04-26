@@ -114,7 +114,7 @@ Games: Minecraft, Fortnite, LoZ: Tears of the Kingdom
 Barebones fun explanation. No mention of the fantasy of archery.
 Descriptions of Minecraft arrow uses far outweigh analysis of fun.
 Same with Fortnite
-Repeatedly mispells Fortnite
+Repeatedly misspells Fortnite
 You chose a fun and niche topic for this paper. Unfortunately, your analysis of why archery impacting the environment is fun was very bare-bones, as 'encourages strategy and awareness of the in-game environment' can be said about many mechanics.
 Consider that your chosen mechanic is actually the marriage of two different mechanics, those being archery and environmental manipulation. You didn't establish why archery is such a common and popular mechanic in games (i.e. the aiming, the fantasy, etc.), and you also didn't establish why the ability to manipulate the environment is fun. 
 Your examples are well-chosen and spaced out in terms of release date, but there is much more time spent explaining all the different ways arrows can be used in them than there is time spent analyzing why it is fun. 
@@ -124,6 +124,111 @@ Your overall argument is sound and I enjoyed seeing such a niche topic highlight
 
 Christian Santiago - Taming Mechanics
 Games: Minecraft, Far Cry Primal, ARK: Survival Ascended
+98
+Citation note: Why is Ubisoft cited after the description of the taming mechanic in Far Cry Primal?
+
+D'Lee Dillard - Item collection
+Games: Minecraft, Skyrim, Zelda
+90
+Definition and fun-explanation of item collection is too brief. Can mean a lot of different things.
+Missing a citation, only 5/6
+
+Isaak Dispensa - Laser Puzzles
+Games: Portal 2, Archaica: The Path of Light, The Talos Principle 2
+100
+Questionable citation GamePressure?
+
+Edgar Fausto - Wanted
+Games: Just Cause 2, Red Dead Redemption 2, Cyberpunk 2077
+100
+
+Jude Favrot - Power-Ups
+Games: Halo, CoD: Zombies, Fortnite
+87
+Definition of power ups explains the utility of the mechanic for the player, but doesn't really explain how these are fun. 
+Halo section assumes CTF without specifying that.
+Third example doesn't describe a power-up
+
+Kristen Fazzini - Skill Trees
+Games: Borderlands
+50?
+Well-done for what is here.
+Italicize game titles
+
+Chloe Fore - Hunting Bosses
+Games: Ao Oni, Persona 5, Fear and Hunger
+98
+Despite charting a clear progression of the mechanic, the conclusion fails to spell out this evolution.
+
+Joshua Forssell - Playable Characters
+Games: Lego Star Wars: The Complete Saga, the Binding of Isaac: Rebirth, SSBU
+85
+Star Wars section could use expansion. Big missing thing: Its fun to play as any of the characters in beloved Star Wars
+Your comparison of Binding of Isaac to Lego Star Wars is inaccurate, as Lego Star Wars characters have widely different abilities and mechanics. In my opinion, Lego Star Wars characters are more varied.
+
+Breanna Frost - Base Upgrading through NPCs
+Games: Mass Effect 2, Slime Rancher, Cult of the Lamb
+84
+I don't like this one
+ME2 + Slime Rancher = CotL
+
+Ella Gaupp - Gacha Gearing Systems
+Games: Summoners War: Sky Arena, Genshin Impact, Wuthering Waves
+97
+Strong Intro
+Only 5 citations
+
+Behrouz Ghodsi - Player Choice
+Games: Star Wars KotOR, Fallout 3, The Witcher 3
+97
+Excellent paper, but three of the Works Cited citations do not appear as in-text citations, parentheticals, or quotations.
+ASK MONICA EVANS
+
+Chloe Gore - Little Monsters
+Games: Final Fantasy XII, Terraria, Devil May Cry 5
+
+Breietta Greenwood - Building Structures
+Games: Minecraft, The Sims 4, Animal Crossing: New Horizons
+98
+CLEAR DEFINITION
+Italicize all game titles.
+
+Martin Hoang - Disguise
+Games: MGS3, Fallout: NV, Hitman
+100
+
+Jason Hollander - Levolution (Dynamic Destruction)
+Games: Red Faction, BF4, Deep Rock Galactic
+84
+Your parenthetical citation (Valve) needs to come before the final punctuation mark in the sentence that contains content paraphrased/quoted from your source.
+Citations sometimes appear with no introduction or context.
+All your games are missing citations in this paper.
+
+Jayden House - Stealth Mechanics
+Games: MGS, Assassin's Creed, Last of Us Part II (outside 20 year range)
+93
+The range of games spans 22 years, which is outside this paper's scope requirements.
+'Simple and dumb' is not a professional-level analysis
+
+Ana Jiminez - Hacking mini games
+Games: Bioshock, Watch_Dogs, Nier: Autamata
+40
+INCOMPLETE
+
+Antonio Killebrew - Hacking
+Games: Fallout 3, Deus Ex: Mankind Divided, Cyberpunk 2077
+98
+Intro lacks fun-explanation
+
+Luisa Lara - Drowning
+Games: Sonic the Hedgehog, Tomb Raider, Crash Bandicoot: The Wrath of Cortex
+
+
+
+
+
+
+
 
 
 
