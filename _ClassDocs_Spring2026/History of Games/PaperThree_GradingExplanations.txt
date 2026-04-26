@@ -222,13 +222,29 @@ Intro lacks fun-explanation
 
 Luisa Lara - Drowning
 Games: Sonic the Hedgehog, Tomb Raider, Crash Bandicoot: The Wrath of Cortex
+100
+Interesting fun argument; mechanic that punishes encourages focus and engagement
+I really like the 'drowning + engagement' connection
 
+Tien Huynh - Stealth and detection in action games
+Games: Batman - Arkham Asylum, The Last of Us, Shadow of the Tomb Raider
+92
+Italicize game titles
+Sloppy writing, language barrier
+Batman->tLoU: Expand detection methods
+No citations so far
 
+Santiago Islas Sanchez - Dynamic Difficulty
+Games: RE4, L4D2, RoR2
+89
+RE4 starts is and does it well, L4D2 brings film-like realism
+You use quotes to make clear when the citations are coming in, which is good! In the future, also put a parenthetical with the shorthand name of the citation, such as '(Birlew)' right before the period at the end of the sentence where the quotation/paraphrase comes in
+Your paper is unfortunately missing most of your conclusion.
 
-
-
-
-
+Charlie Ixel - Double Jump in action-platformers
+Games: Castlevania: SotN, LEGO Star Wars: The Complete Saga, Hollow Knight
+100
+Your Castlevania in-text citation's parenthetical saying ("Castlevania") was a bit confusing. In the future, make sure you are putting the author's name in the parenthesis, not a snippet of the source's title.
 
 
 

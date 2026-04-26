@@ -311,7 +311,7 @@ Features: Attack methods, Special Skills, Attack control combinations
 
 *Santiago Uriel Islas Sanchez - Kirby Super Star
 
-Goal: Omnibus approach to game  structure
+Goal: Omnibus approach to game structure
 Features: Co-Op, Combat, nothing
 The thesis of this paper appears to be that Sakurai's goal with Kirby Super Star was to employ an 'omnbibus' structure composed of many smaller games in order to ensure players could have a lot of content without it getting stale. Neither of the two (not three) supporting features you discuss connect back to this thesis.
 -10 Points for lack of connection to thesis in supporting feature sections.
