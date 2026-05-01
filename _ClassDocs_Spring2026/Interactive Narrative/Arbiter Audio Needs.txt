@@ -1,0 +1,18 @@
+Arbiter Audio Needs
+- Buzzer that plays when each person enters
+-- Clean up transition between people, expand on that to have first person 
+exit, buzzer, second person enters, yarn script starts
+- Footsteps (4 kinds, heels, light shoes, heavy boots, heels again)
+- Pull up Compliance form
+- Put away compliance form
+- Submit form sound (ding? IDK maybe engineer some shit)
+- Pull up ID
+- Put away ID
+
+Yarn
+- Sound for each voice's appearance
+- Different sound for VISO
+
+
+UI
+- Menu buttons (Highlight, press)
