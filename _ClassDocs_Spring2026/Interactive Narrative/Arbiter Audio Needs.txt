@@ -1,3 +1,12 @@
+TODO:
+Default Typewriter Sound
+Eethin
+Mary
+William
+VISO
+Miranda
+
+
 Arbiter Audio Needs
 - Buzzer that plays when each person enters
 -- Clean up transition between people, expand on that to have first person 
@@ -8,7 +17,6 @@ exit, buzzer, second person enters, yarn script starts
 - Put away ID
 
 Yarn
-- Sound for each voice's appearance
 - Different sound for VISO
 
 UI
@@ -19,6 +27,8 @@ UI
 - Checkbox
 - Pull up Compliance form
 - Put away compliance form
+- Sound for each voice's appearance
+- Typewriter sound
 
 
 Non Audio needs

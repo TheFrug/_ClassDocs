@@ -1,0 +1,13 @@
+Bug List:
+
+- Kaiju has to host
+- Stomp killing airborne targets
+- Latching to Kaiju during charge still works (it should break off)
+- Kaiju animations not working
+- Rocket explosion not appearing on my end
+
+Improvements:
+- Kill feed (Kaiju killed [PLAYERNAME] with [ABILITY/DAMAGESOURCE]
+-- With ____ is optional, but we def need some kind of kill feedback
+- Audio trigger pass
+
