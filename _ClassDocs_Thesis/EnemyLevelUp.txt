@@ -1,0 +1,3 @@
+Thesis idea:
+
+Enemy level up: When player fights enemies, each combat enemy fills a gauge per enemy it fights that when completed gives the enemy stat buffs. The narrative idea here is that enemies eventually learn the patterns of a specific unit and become better suited to fight it, disincentivizing grinding. Also its fucking cool in my head man idk

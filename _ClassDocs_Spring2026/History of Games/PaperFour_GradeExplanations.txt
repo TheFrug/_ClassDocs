@@ -1,9 +1,373 @@
 Chema Victor Alanis - Riot Games' 10-Year Anniversary Event
+*Score: 100
+Introduction: 15
+Background: 15
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 15
+
+Miguel Alarcon - No Man's Sky
+*Score: 98
+Introduction: 14
+Background: 15
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 14
+
+Simon An - Halo 3
+*Score: 95
+Introduction: 12
+Background: 13, marketing should be in background section
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 15
+
+Antonio Andrade - Black Flag
+*Score: 82
+Introduction: 11 underdeveloped
+Background: 13 overexplaining mechanics, 
+Event: 10 So much explaining game mechanics
+Fallout: 13
+Legacy: 14
+Citations: -1 for Pirates Keith Ferrel citation
+Professionalism: 12, -3 lamence
+
+Evelyn Aviles - Mobile Gaming Ascension
+*Score: 97
+Introduction: 17
+Background: 15
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 13
+
+Saif Babar - Decline of Wii U and Handhelds
+*Score: 100
+Introduction: 15
+Background: 15
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 14 the structure of this paper is somewhat confusing. 
+AI Risk
+
+Raquel Baca - Fortnite, Thanos, Crossovers
+*Score: 100
+Introduction: 15
+Background: 15
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 15
+
+Camden Baldwin - FNAF
+*Score: 90
+Introduction: 13
+Background: 15
+Event: 15
+Fallout: 12
+Legacy: 10
+Citations: 10
+Professionalism: 10
+
+Margarate Barajas - Scalpers
+*Score: 87
+Introduction: 15
+Background: 15
+Event: 10
+Fallout: 12
+Legacy: 14
+Citations: 7
+Professionalism: 12
+This paper is somewhat unfocused in topic. In parts, you focus on the PS5 scalping, in other parts, you discuss scalping in general. 
+
+Karson Baraka - The Wii
+*Score: 96
+Introduction: 15
+Background: 15
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 11
+
+Daniel Blank - Dark Souls
+*Score: 93
+Introduction: 14
+Background: 10, only one force, historical/cultural shift, or other significant event listed, being Demon's Souls release
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: -1
+
+Antania Boston - GTA V
+*Score: 98
+Introduction: 15
+Background: 15
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 13
+
+Emily Broyles - Steam Family Share
+*Score: 100
+Introduction: 15
+Background: 15
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 15
+
+Seth Alexander - Wii release
 *Score: 
-Introduction:
-Background:
-Event:
-Fallout:
-Legacy: 
+Introduction: 10
+Background: 10
+Background makes no mention of the GameCube, instead focusing on the Virtual Boy from 10 years prior to the Wii
+Now everyone can play just about anything with people they care 
+about and share that experience together, this is much different to games before where the most 
+you might get is personally changing the game yourself to allow other people to join you if they 
+were even interested in that specific title.
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 15
+
+Michelle Campoy - Smash bros controversy EVO
+*Score: 93
+Introduction: 10
+Background: 15
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 13
+
+Ollie Carson - Indie Boom FNAF 1
+*Score: 99
+Introduction: 15
+Background: 15
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 14
+
+Ollie Carson - Indie Boom FNAF 1
+*Score: 100
+Introduction: 15
+Background: 15
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 15
+
+Jason Castro - PlayStation Network Outage (2011)
+*Score: 97
+Introduction: 15
+Background: 15
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 9
+Professionalism: 15
+
+Nurin Chanthai - Rise of Lets Plays from Slender Man
+*Score: 98
+Introduction: 15
+Background: 15
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 8
+Italicize all game titles
+
+Milana Chhean - GaaS and TF2
+*Score: 92
+Introduction: 13
+Background: 13
+Event: 15
+Fallout: 13
+Legacy: 13
+Citations: 10 
+Professionalism: 15
+
+Peter Clyburn - Launch of Steam
+*Score: 80
+Introduction: 
+Background: 
+Missing intro and background? Potential cause to lose more points/
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 15
+
+D'Lee Dillard - Breath of the Wild
+*Score: 94
+Introduction: 13
+Background: 14
+Event: 15
+Fallout: 14
+Legacy: 14
+Citations: 10
+Professionalism: 14
+
+Christian De Santiago - Loot Box controversy
+*Score: 100
+Introduction: 15
+Background: 15
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 15
+
+Sammie Dawson - XBox Live 
+*Score: 99
+Introduction: 15
+Background: 15
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 14
+
+Isaak Dispensa - Steam
+*Score: 100
+Introduction: 15
+Background: 15
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 15
+
+Edgar Fausto - SimCity DRM Controversy
+*Score: 92
+Introduction: 11
+Background: 11
+Above sections are combined into one paragraph
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 15
+
+Jude Favrot - Money Advantages?
+*Score: 82
+Introduction: 12
+Intro is underdeveloped and reads more like a summary of the paper rather than setting up the historical/cultural context.
+Background: 14
+Event: 15
+Fallout: 13
+Legacy: 13
 Citations: 
 Professionalism: 
+-10 late
+Italicize all game titles
+
+Kristen Fazzini - Steam's Release
+*Score: 97
+Introduction: 15
+Background: 15
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 12
+
+Chloe Fore - Stardew Valley
+*Score: 90
+Introduction: 15
+Background: 15
+Event: 15
+Fallout: 12
+Legacy: 12
+Citations: 7
+Missing three citations
+Professionalism: 14
+
+23 to go!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
