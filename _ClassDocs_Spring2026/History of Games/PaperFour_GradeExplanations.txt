@@ -304,7 +304,276 @@ Professionalism: 14
 
 23 to go!
 
+Joshua Forssell - No Man's Sky
+*Score: 97
+Introduction: 15
+Procedural generation is squeezed in at the end without much detail. Why was procedural generation becoming easier/more prominent?
+Background: 15
+Event: 13
+Event section itself could use more detail
+Fallout: 15
+Legacy: 
+"Pulling a No Man's Sky" is a phrase I have only heard used to reference the practice of dissappointing/buggy releases.
+Citations: 10
+Professionalism: 9
 
+Breanna Frost - Warframe
+*Score: 95
+Introduction: 15
+Background: 15
+Event: 13
+Fallout: 14
+Legacy: 14
+Citations: 10
+Professionalism: 14
+
+Ella Gaupp - Concord
+*Score: 90
+Introduction: 
+Background: 
+Event: 
+Fallout: 
+Legacy: 
+Citations: 
+Professionalism: 
+This essay doesn't appear to follow the structure outlined in the rubric.
+Your first paragraph is an intro that describes one games industry landscape element.
+Second paragraph is background, discussing the lackluster marketing. Then it goes into the unpopular price tag which should be in the event section.
+Third paragraph is all about character design, which is not relevant enough to Concord as a historical event to justify this much writing about. It isn't quite part of the background, as the character designs aren't a 'force, historical shift, or significant event leading up to this event'
+Fourth paragraph is about wokeness
+Fifth Paragraph is about Concord's demise
+Sixth paragraph is about Marvel Rivals (not a part of fallout or legacy?)
+
+Behrouz Ghodsi - Star Wars Battlefront II
+*Score: 89
+Introduction: 15
+Background: 15
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 9
+Missing 1
+Professionalism: 
+-10 Late
+
+Chloe Gore - Steam
+*Score: 100
+Introduction: 15
+Background: 15
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 15
+
+Breietta Greenwood - #Gamergate
+*Score: 99
+Introduction: 15
+Background: 15
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 15
+Alec Baldwin had nothign to do with $Gamergate. That was Adam Baldwin
+
+Martin Hoang - TF2 F2P
+*Score: 100
+Introduction: 15
+Background: 15
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 15
+
+Jason Hollander - Mann-Conomy Update
+*Score: 90
+Introduction: 15
+Background: 12
+Second background event, the rise of Steam, is given far less detail than horse armor.
+Event: 15
+Fallout: 8
+Fallout section is mostly made up of information that should go in the legacy section. Star Wars Battlefront II is mentioned in the fallout section despite happening years later.
+Legacy: 13
+Citations: 9
+Missing 1
+Professionalism: 14
+
+Jayden House - Unfinished Games
+*Score: 70
+This paper misses the purpose of this assignment. Rather than focus on a singular event and analyzing its immediate and long-term consequences, this paper seems to be about the general trend of large game studios releasing unfinished products. This paper lacks focus, and it shines through in the writing, as you discuss industry practices in very vague terms.
+Introduction: 10
+There are many incorrect claims about development and developers in this section. A few that I want to challenge:
+- Developers do not forgo optimization because of Unity and Unreal Engine 5.
+- AI upscaling did not exist before some of the events your paper is about (such as the release of No Man's Sky)
+Background: 7
+Event: 6
+Doesn't describe a singular event, but rather lists games with unfinished releases and describes their timeline very briefly.
+Fallout: 10
+Legacy: 15
+Citations: 10
+Professionalism: 12
+**SECOND VERSION**
+Jayden House - Unfinished Games
+*Score: 88
+
+Tien Huynh - Battle Royale
+*Score: 90
+Introduction: 10
+Intro section doesn't provide much historical context leading up to PUBG release
+Background: 15
+Event: 10
+Is your event the release of PUBG, or the release of Fortnite? Your events section details both, splitting your focus. These games were released months apart, so they can't be considered part of the same 'event'
+Fallout: 5
+This section doesn't detail the immediate consequences of the release of either game. Instead, it focuses on the Battle Royale genre blossoming in the years following, which makes this paragraph a better fit for the legacy section than the fallout section. 
+Legacy: 15
+Citations:10
+Professionalism: 15
+
+Santiago Islas Sanchez - 9/11?
+This is out of my depth
+*Score: 
+Introduction: 
+Background: 
+Event: 
+Fallout: 
+Legacy: 
+Citations: 
+Professionalism: 
+
+Charlie Ixel - Steam
+*Score: 100
+Introduction: 15
+Background: 15
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 15
+
+Caleb James - Steam
+*Score: 83
+Introduction: 14
+Background: 14
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 6
+Professionalism: 14
+Italicze all game titles
+-10 late
+
+Ana Jiminez - Steam Library Redesign
+*Score: 95
+Introduction: 15
+Background: 15
+Event: 14
+Fallout: 15
+Legacy: 15
+Citations: 6
+Professionalism: 15
+
+Anthony Kalmbach-Poole - Apple Store release
+*Score: 88
+Introduction: 15
+Background: 15
+Event: 14
+Fallout: 15
+Legacy: 15
+Citations: 0
+Missing a works cited page. I can tell you used some citations, but I have no clue what they are. 
+Professionalism: 13
+
+Trhea Karthigesh - Wii
+*Score: 76
+Introduction: 8
+Your intro does not provide any historical/cultural context as per the rubric. 
+Background: 13
+Casual Revolution is pointed to as part of background context for the Wii's release, but the Wii was instrumental in the Casual Revolution according to scholars like Jesper Juul. Additionally, you mention iPhone games, but Apple's SDK wasn't released until two years after the Wii, meaning casual games on the app store did not precede the Wii as your paper implies.
+Event: 10
+Your anecdote about TriForce Johnson is misinformed. TriForce was the first to buy a Wii U, not the original Wii, as per a 2012 Polygon article. Unfortunately, this poorly-sourced factoid takes up over half of the event section.
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 15
+-10 late
+
+Antonio Killebrew - Xbox Live
+*Score: 93
+Introduction: 13
+Background: 15
+Event: 14
+Fallout: 12
+What I assume to be your fallout section starts with the release of the Xbox 360 three years after the launch of Xbox live. This is a bit too far out from the initial event to be considered part of the fallout. Fortunately, you cover the fallout of the release of Xbox Live in the same paragraph that you first mention the event, so you still get most of the points for the fallout section.
+Legacy: 15
+Citations: 10
+Professionalism: 14
+
+Luisa Lara - Nintendo Switch Release
+*Score: 97
+Introduction: 13
+Background: 14
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 15
+
+Kendon Lopez - FNAF
+*Score: 95
+Introduction: 15
+Background: 15
+Event: 15
+Fallout: 12
+Legacy: 12
+Citations: 10
+Professionalism: 13
+
+Kimberly Lopez - E3 End
+*Score: 100
+Introduction: 15
+Background: 15
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 15
+
+Maite Lopez - Minecraft
+*Score: 96
+Introduction: 13
+Despite being listed as an engine that aided the rise of indies, Unreal Engine was not available to the public until 2014, several years after Minecraft's release. 
+Background: 13
+Despite being listed as an engine that aided the rise of indies, Unreal Engine was not available to the public until 2014, several years after Minecraft's release. 
+Event: 15
+Fallout: 15
+Legacy: 15
+Citations: 10
+Professionalism: 15
+
+Avery Lovett - Overwatch
+*Score: 91
+Introduction: 14
+Background: 14
+Event: 15
+Fallout: 8
+Your second to last paragraph which I assume to the the Fallout section discusses consequences that cropped up many years after Overwatch's release rather than immediately following it. Your event section does cover some of these immediate effects, but not as much as a full fallout section would.
+Legacy: 15
+The Legacy section is the most detailed section in part because your fallout paragraph 
+Citations: 10
+Professionalism: 15
+
+KeLi Lumampao - Roblox Predator Scandal
+*Score: 91
+Introduction: 14
+Background: 15
+Event: 10
+Describing a series of lawsuits all taking place in the same year as one 'scandal' is a stretch. I think you should have chosen one specific legal dispute or incedent to center the discussion around so that you have more hard details.
+Fallout: 15
+Legacy: 15
+Citations: 8
+Professionalism: 14
 
 
 
