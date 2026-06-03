@@ -1,4 +1,3 @@
-
 https://projects.cah.ucf.edu/elo2026/cfp.html
 
 Electronic Literature Organization - Meeting Notes 2/23/26
@@ -29,7 +28,6 @@ Don't worry as much as much the art style (Jack likes the pencil-sketch aspect o
 - Conversation branch for the Redpill line > Every line from player is redpill-coded (dialogue gets redder and redder)
 - Focus on the dynamic of whether or not to wear the glasses
 - If picking non-alpha dialogue options > Alpha coach crashes out, berates you, you can't read it if you ignore him or don't wear glasses
-- 
 
 The thing that sets the game apart is the glasses; elevates it
 - Before game: Do you have decoder glasses?

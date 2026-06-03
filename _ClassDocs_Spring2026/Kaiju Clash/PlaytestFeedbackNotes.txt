@@ -1,0 +1,67 @@
+Kaiju Clash Feedback Solutions
+
+- Make POI's more discernable from background
+- VFX for when hunters die (bright red blood+electricity?)
+- Look at SFX for player deaths
+- Make certain POI buildings indestructible -or-
+-- Give each POI building a radius around it that tracks other non POI-buildings. If none are left, the POI building becomes destroyable (still higher health than large buildings)
+-- Indestructible: If hit by Kaiju, building shakes (unrealistic but good feedback), throwing off Hunter's attached or latched.
+
+- Doom UI for destroying stuff (shows the number)
+- 3 of buildings are energy sources for shield -> colored beams from energy sources to the POI -> Destroy all 3 to render POI vulnerable
+
+- Fix killfeed lmaooooo
+- Grapple slide jump?
+- Kaiju OP
+
+- Nail-shaped buildings
+-- Players can hide between buildings
+
+- Hard to find Kaiju (Compass with POI's + Kaiju Skyrim style?)
+-- Makes red dot pulse every time Kaiju makes sound, maybe bigger/louder based on action?
+--- ActivateDetectorPulse(float intensity)
+
+- Replace double-tap with shift and a direction
+- Missile attack spam is unsatisfying
+-- We aren't using right click right? Can we do something cool with that? Maybe charge-up attack if the player has a good vantage point and time to build up? Takes the whole clip?
+- Level design
+-- More indestructible structures
+-- Add horizontal fixtures between buildings for variety?
+More landforms (hills)
+- Bring back the shift boost and see if we can tie it more to movement speed
+- Expand building platforms (this one is hard)
+- Obliterate progress bar
+- Kaiju weak points? Possible?
+- More visual feedback
+-- UI labels for fuel bars?
+- Kaiju vulnerable status
+- Hunter melee weapon? Worth?
+- Hunter needs more than cool movement and drones
+
+Solutions Plan:
+- Spawn Hunters above on a floating platform
+- Compass UI
+- Colored lights on POI buildings
+-- Refuel, Drones, Orbital Laser (not tutorialized at all)
+- Orbital Laser -> Helldivers style throwable that calls laser down (can stick to Kaiju)
+-- Stomp can throw off sticky beacon
+- 3 of buildings are energy sources for shield -> colored beams from energy sources to the POI -> Destroy all 3 to render POI vulnerable
+-- Nail-shaped buildings
+-- Players can hide between buildings
+- Doom UI for destroying stuff (shows the number)
+- Vulnverable mechanic + appropriate visual cue
+- Weak Spots on the Kaiju
+-- Timed or persistant
+- Melee 
+- Charged shot
+- Melee playstyle
+- Rifle
+- Particle trail following hunters
+- Ping system
+
+Bug Fixes:
+- Double win secret ending
+- Ending polish
+- Obliterate progress bar
+- Collider doesn't follow anim
+- UI labels for fuel bars?

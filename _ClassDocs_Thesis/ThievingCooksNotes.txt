@@ -1,0 +1,12 @@
+Thieving Cooks Ideas:
+
+Fire Emblem Pillars to emulate: Simplicity, War Stories, Rich Characters, Luck
+Move and Attack > Move, Attack, Loot!
+Loot button allows player unit to loot adjacent enemy or crate
+If open crate/enemy, chance-based mechanism determines loot from loot tables, nice Vampire Survivors-style unboxing sequence
+
+Primary gameplay: Planning heists of passing caravans, lords, houses, etc. as small attacks against a larger evil empire. The player is operating one small part of a scattered rebellion and slowly gains notoriety.
+Zero-in on the GBA era
+
+Calendar System: On normal mode: infinite grinding. on Hard mode: more linear
+- Like 3H/Dave the Diver. You have one daytime section to adventure, one evening section, and a night section where you restaurant. You can use evening for adventure or restaurant with differing results
