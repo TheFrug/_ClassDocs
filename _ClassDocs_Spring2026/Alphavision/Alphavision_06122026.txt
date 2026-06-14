@@ -1,0 +1,13 @@
+Alphavision To Do
+
+- Audio Pass
+- New Pause Menu
+- Ending card 1
+- Ending card 2
+- Ending card 3
+
+- Dialogue Box switcher based on speaker
+
+
+Done
+- New Main Menu
