@@ -1,0 +1,8 @@
+Weapon alt fire idea:
+Each alternate fire is a movement ability that also deals damage. 
+
+- Sword: Rocket boost
+-- Drives player forward in the direction they face while hampering their strafing. Builds damage as it charges over time, can be used to strike the Kaiju from up high.
+
+- LMG: Uuuuuh
+-- 

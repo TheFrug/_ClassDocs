@@ -1,0 +1,15 @@
+Restraint System
+
+Each character has a Restraint bool the player can toggle as a free action.
+If On => Defeating enemies leaves them incapacitated and vulnerable to looting
+If Off => Defeating enemies kills them and makes looting them guaranteed
+
+Unit Records show:
+Wins
+Losses
+Kills (in red)
+
+Benefits of system:
+- Allowing players to role-play how they deal with enemies, such as by killing members of evil factions rather than leaving them alive
+- Incap or Killing enemies results in different faction results
+- Characters in army can interact with it differently, some can refuse to kill, others can have their endings change with enough kills

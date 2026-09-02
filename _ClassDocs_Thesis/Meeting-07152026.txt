@@ -1,0 +1,43 @@
+Thieving Cooks - 07152026
+
+Sai Creative Control
+
+Propose mechanic/element > Ask questions about narrative context, pull more detail
+
+Side-based turns
+Attack, Move, Loot
+Square grid
+Stats:
+HP
+Str
+Skl
+Spd
+Luck
+Def
+Res
+Movement (bound by class)
+
+Combat calculation
+
+Environmental Effects
+- Fire spreads, flattens forests
+
+Combat can't be too large
+
+Skirmishes vs Story Missions
+
+- Skirmishes - one screen
+-- Time Limits (loot area in X turns)
+-- Kill Boss (take down big monster for loot)
+-- Rout (bandits)
+- Story missions - larger than, have more going on
+
+Core gameplay lends itself to restuarant sim
+Treat it like a skirmish
+Puzzle-based encounter
+
+Restaurants customizable
+Quick conversations between characters
+
+Move cursor to cell
+
