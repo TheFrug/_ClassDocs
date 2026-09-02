@@ -1,0 +1,72 @@
+FUCK we gotta make a Restaurant Sim
+
+Restaurant Decision-Making
+Select Food to Serve from list
+List of recipes
+- Varied ingredients (need to collect ingredients like Against the Storm?)
+- Some have effects, buffs, etc.
+- Player can set price to gain money per attendee
+
+Reputation
+The Thieving Cooks can garner reputation with different factions based on the player's auxiliary mission choices and the what they serve
+- Read the chapters on food
+Factions:
+- Mercha
+
+Restaurant gains 'Favor' with each successful service. The more customers are satisfied, the better.
+- High price, high quality food will yield big bursts of Favor from wealthy patrons, but not from common people who can't afford the door price
+- Free food can feed many, but will chew through ingredients. Gains massive favor and guarantees reputation gain with anyone who will eat the food.
+
+Number of potential customers based on:
+- Favor (higher favor, more average customers)
+- Aven Parade (Lots of bird-folk will come, want to make food popular among them, learning from other customers or from aven party members)
+- 
+
+Unit stats (used in both sections)
+Health, Strength, Intelligence, Skill, Speed, Defense, Will, Luck, Charisma, Mov, Con
+
+Units have two classes, but the same stats
+Battle Class vs Restaurant Class
+
+Restaurant class has significant stats:
+Cook: Health, Strength, Defense, Will
+Server: Skill, Speed, Charisma
+Bartender: Health, Skill, Defense, Charisma
+Dishwasher: Strength, Intelligence, Will
+Host: Intelligence, Charisma, 
+Cleaning: Intelligence, Defense, Will
+Healer: Intelligence, Will, Charisma
+Beastmaster: Health, Strength, Charisma
+Bard: Skill, Will, Charisma
+
+Some of these roles can only really be filled by someone with special talent, and some can be done by most anyone. 
+Maybe rather than having a specific restaurant class, the characters can vary in where they go?
+Buildings have slots for workers, like the Restaurant:
+- Head Chef Slot (Always filled by mom)
+- Manager Slot (Filled by Ol' Magpie, then Bridge)
+- 1/2 Cook slots
+- 1/2 Server Slots
+Hachi: Can be assigned as chef or server, depending on if you want more food output or more service.
+Early healer character: Unique access to the Shrine as a position.
+
+
+Starting classes:
+Bridge: Rogue/Gopher (-> Manager)
+Hachi: Hunter/Server
+Mama Magpie: Head Chef
+Ol' Magpie: Manager
+
+
+Fatigue mechanic:
+Workers can hunt or cook, but not often both without penalty. Makes users use most of the cast, strategize which units are available for the story missions
+Stamina drinks buyable early
+
+Buildings:
+Certain: 
+Restaurant (Plan dinner service, assign workers to work)
+Storage Shed (Inventory management + convoy) (TODO)
+Caravan Circle (Shops, rotates with cooler shops) (TODO)
+
+
+Potential:
+Shrine (Healing, curing ailments (takes time))

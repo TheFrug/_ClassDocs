@@ -1,0 +1,74 @@
+Semester 1
+Feature Complete
+Week 1 (Sep 3)
+1st day first battle
+First restaurant section (no dialogue yet)
+
+Week 2 (Sep 10)
+- Fix stuff that Dr. Evans yells at us for
+- Inventory List (Convoy)
+
+Week 3 (Sep 17)
+- Unit Character Sheet
+- Shop System
+- Looting System
+- Heirloom Mechanic
+
+Week 4 (Sep 24)
+- Ink Implemented
+- Cutscene scripting thru Ink
+
+Week 5 (Oct 1)
+1st day (polished + narrative)
+- 2 fights w/ transition
+- Restaurant Section
+
+Week 6 (Oct 8)
+- 2nd Day Development
+- Camp Upgrades started
+- Design 'Aux Battle'
+- Design new Unit
+
+Week 7 (Oct 15)
+- Branching Promotion System
+- Pseudo-buffer (accounting for whatever bullshit we need to solve from adding a second day (+whatever Dr. Evans yells at us for))
+
+Week 8 (Oct 22)
+- Support System functional
+- Actual written scene(s)
+
+Week 9 (Oct 29)
+- Flesh out Faction system
+- Design 'Aux Battle' choice
+
+Week 10 (Nov 5)
+- Flesh out Faction system
+- Design 'Aux Battle' choice
+
+Week 11 (Nov 12)
+
+
+Week 12 (Nov 19)
+
+
+Week 13 (Nov 26)
+
+
+Week 14 (Dec 3)
+
+
+Semester 2
+Art implementation
+Content + Narrative expansion
+Polish + Bug-Fixing
+
+Mechanics needed for Week 5
+- Ink implemented
+- Skill system documented and implemented
+- Shop
+- Inventory Manager system
+
+UI Needs
+- Unit Character Sheet
+- Inventory List (Convoy)
+- Restaurant Assignment UI
