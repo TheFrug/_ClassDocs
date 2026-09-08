@@ -6,8 +6,9 @@ Alphavision To Do
 - Ending card 2
 - Ending card 3
 
-- Dialogue Box switcher based on speaker
-
 
 Done
 - New Main Menu
+- Dialogue Box switcher based on speaker
+- New Date Score look
+- New Feedback from Alpha Coach look

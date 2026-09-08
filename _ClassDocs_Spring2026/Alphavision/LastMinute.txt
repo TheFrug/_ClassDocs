@@ -1,0 +1,4 @@
+Bugs to fix:
+
+Typewriter still not playing
+Double-clicking Start causes weird flicker. Lock input after first click?
