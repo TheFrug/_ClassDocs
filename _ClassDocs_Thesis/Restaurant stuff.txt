@@ -1,0 +1,40 @@
+Four main skills (+ a bunch of special skills)
+1. Cooking (Higher stat -> Can make more food in a shift, 
+2. Server Skill
+3. Cleaning
+4. Gopher skill (
+
+Job Skills are like weapon proficiency, going from E to S
+
+Burnout Mechanic: Units accumulate burnout with negative effects at certain thresholds.
+Burnout limit is double health rating.
+- 25% of damage taken adds to burnout
+- Working a shift adds 10% burnout
+- Taking lethal damage adds 30% burnout
+Taking a day off fighting or night off restaurant cuts 50%
+
+
+Big Questions
+UI vs Map
+Do  we  see the restaurant floor? The tables and guests? Can we place things? This is all a lot of work to develop and balance.
+
+If we use a grid-based map: Hybrid simulation and strategy. 
+Simulation: Characters move on screen automatically. Four settings: 0x, 1x, 2x, 3x. 
+Game can pause automatically when situations pop up
+
+Customers: [Walk into entrance > wait to get seated. > When met,] Go to table > Wait time > Decide what they want > Have order taken > Wait (Countdown to becoming impatient) > If food delivered in time: Eat > Tip (calculated based on wait times) > Leave
+> If food NOT delivered in time: Leave (no pay no favor gain)
+Numbers: Price tolerance, tips, patience for food.
+
+Staff:
+Server: [Take customer from entrance to table] > take order > move to kitchen counter > take food to table
+Numbers: Time for each task, walking speed, tips?
+Bridge does server stuff
+
+Chef: Receive order (first in, first out) > Output order
+Numbers: Food quality (Hidden stat?), Speed (how quickly we make food), Efficiency (Maybe sometimes double output, or saves on ingredients)
+
+
+
+UI is easier and less art-intensive
+

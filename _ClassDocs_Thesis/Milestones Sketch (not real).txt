@@ -1,18 +1,20 @@
 Semester 1
 Feature Complete
 Week 1 (Sep 3)
-1st day first battle
-First restaurant section (no dialogue yet)
+- 1st day first battle
+- First restaurant section (no dialogue yet)
 
 Week 2 (Sep 10)
 - Fix stuff that Dr. Evans yells at us for
-- Inventory List (Convoy)
+- Unit Character Sheet
+- Unit Inventory
 
 Week 3 (Sep 17)
-- Unit Character Sheet
-- Shop System
+- Inventory List (Convoy)
 - Looting System
 - Heirloom Mechanic
+- Shop System
+Documented by Sep 10 ish
 
 Week 4 (Sep 24)
 - Ink Implemented
