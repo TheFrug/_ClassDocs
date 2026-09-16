@@ -1,0 +1,20 @@
+THESIS TODO
+[] Mockup Restaurant system designs
+-[] Grid-based and turn-based
+-- Abilities have kitchen applications
+-- Snapshot of a disaster in the kitchen
+-- Pureref about this
+-- Pitch to Dr. Evans and Dr. Murray
+-- 
+
+[] Start shitty art
+-[] Bad mspaint character portraits
+-[] Get a bad tileset/find one on itch for level creator
+
+[] UI Mockups
+-[] Mockup Unit Character Sheet
+--[] Stats Page
+--[] Inventory Page
+-[] Storage/Convoy screen
+
+-[] Make some battle scenes and test
