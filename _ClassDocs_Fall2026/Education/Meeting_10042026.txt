@@ -1,0 +1,10 @@
+ModeratorSim meet 10042026
+
+Meet 10/5, Monday, at 5:00
+
+Before Meeting:
+
+- Design twitch chat UI for live chat minigame
+- Determine some learning objectives related to moderator stuff for both minigames
+- Add customizable hints to report review scriptable object
+- Hook up clock manager
