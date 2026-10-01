@@ -1,0 +1,16 @@
+Real shit
+[x] Bad/borrowed pixel art tileset
+[x] Bad/Borrowed overworld unit sprites
+[x] Restaurant map - First draft
+[-] Storage screen doc
+
+[] Write 3+ scenarios for restaurant
+[x] 1
+[] 2
+[] 3
+Extra credit
+[] Inventory doc
+[] Bad/borrowed portrait art
+[] Shop doc
+[] Start gathering audio
+
