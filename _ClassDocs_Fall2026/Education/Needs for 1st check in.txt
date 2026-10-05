@@ -1,0 +1,11 @@
+Needs:
+
+At least one minigame
+1. Sorting game
+2. Wack-a-mole
+
+Structure in place to run multiple minigames simultaneously
+
+Currency System
+Shop outline
+- Item idea: Bouncy ball for desktop background
