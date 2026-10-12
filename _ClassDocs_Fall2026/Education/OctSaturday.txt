@@ -1,0 +1,29 @@
+* Tutorial popups
+
+* Teacher character
+
+* Working Live chat game
+
+Game rules:
+Chat is always running (scrolling up).
+- Sometimes, a chatter is spamming some bullshit and you gotta identify and remove them
+- Doesn't always seem obvious. Sometimes its straight line of same guy, sometimes its every few lines
+
+To remove: Click a line (can be message itself or name plate) to pull up box that says 
+Username
+Message Content
+Cancel - Mute - BAN (red text)
+
+When correct: Player receives coins based on how long it took to find and ban person. 
+
+When incorrect: IDK some options:
+
+- If they give incorrect penalty 3 times, they go on cooldown and can't take mod actions for some amount of time (lost revenue)
+- IDK we can't game over them and we don't want to TAKE coins away. I don't want to add more numbers to track like a burnout meter or health bar or whatever. That's why I thought 3 strikes is bad? Maybe first two strikes are a mute and the third is a longer timeout.
+- Actually 
+
+Profile Review:
+View public profiles and see what people post online.
+- Use the magnifying glass to identify places where people are posting too much
+- Big stack of funny blorbo
+

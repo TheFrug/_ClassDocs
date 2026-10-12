@@ -1,0 +1,6 @@
+glowing boar
+Drops magic pork
+Uses beam tusks with magic damage
+Tutorialize phys/magic split and using ranged units to chip dangerous foes.
+
+

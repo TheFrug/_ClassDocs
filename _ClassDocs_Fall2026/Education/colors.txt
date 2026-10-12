@@ -1,0 +1,17 @@
+Harassment & Bullying - orange
+Hate Speech - purple
+Threats & Violence - red
+Spam & Disruptive Behavior - cyan
+Inappropriate or Explicit Content - pink
+Misinformation & Deceptive Content - yellow
+Scams & Malicious Links - green
+Privacy Violations - blue
+
+hate speech - purple
+spam
+privacy
+
+orange
+blue
+purple
+brown
