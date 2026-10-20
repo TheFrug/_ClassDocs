@@ -1,0 +1,20 @@
+Inscryption Rules Mods by Act
+
+Act I:
+- Cards can be physically modified, gaining new effects and/or augmented stats
+- Resource/Squirrel deck is separate from other cards
+- Items can interfere with normal matches
+-- Scissors
+-- Eye
+- Cards are added over time
+- All cards in collection are in deck (no collection view)
+- Leshy's face is obscured (no tells)
+
+Act II:
+- Digital
+- 
+
+
+Act III:
+- Unconvincing copy of Leshy's structure mixed with Act II
+- 
