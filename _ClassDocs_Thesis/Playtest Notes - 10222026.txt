@@ -1,0 +1,5 @@
+Playtest Notes - 10/22/2026
+
+- Cursor should only instantiate once opening dialogue is done
+- Papa Magpie portrait not showing up properly
+
