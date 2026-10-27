@@ -1,0 +1,20 @@
+- List of every screen that would exist in-game
+-- Main Menu
+-- Setting menu (part of same scene, different screen)
+-- 'Screen' every topmost layer that player can see or interact with
+- Sai can mockup layout
+- If I can design a layout, good. If not, at least list all info needed.
+
+List:
+- Item select screen
+- Action screen
+- Battle forecast
+
+- Restaurant village screen
+- Each building has its own screen
+
+Game flow map
+
+In battle UI:
+- Battle forecast appears under units during combat itself (The drama of numbers)
+- Health bars under guys
