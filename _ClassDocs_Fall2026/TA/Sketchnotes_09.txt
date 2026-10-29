@@ -19,9 +19,9 @@ Ray Hossain
 Look at:
 Kaylee Ball
 
-[] Quiz ch 10 Questions
-[] Nickname/Pronouns check
-[] New highlights link
+[x] Quiz ch 10 Questions
+[x] Nickname/Pronouns check
+[x] New highlights link
 [x] download all and upload to box
 [x] add favorites to highlights on box
-[] type out reflections
+[x] type out reflections
