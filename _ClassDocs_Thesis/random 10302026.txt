@@ -1,0 +1,9 @@
+Random - 10302026
+
+- Duplicate intro level and empty grid
+- Define flow from first two boars to boss
+- Maybe think about creating second map with Magpie in it? So player can use a big awesome guy against the boar?
+- 
+
+- Hachi technique: double loot from beasts
+- 
