@@ -1,0 +1,92 @@
+playtest notes 10/29/2026
+Monica
+- Restaurant not finished
+- forests look like they block path to boss pig
+
+Percy
+- Percy trying to attack with Hachi at 1 range.
+- Bridge died
+- Came back from the dead at start of next playthrough.
+
+Jaylen
+- Minecraft and roblox
+- First boar should be max distance from guys make it really clear
+- Trying to attack with Hachi at 1 range
+- Need color to change on selection in battle UI (size difference alone is not good enough)
+- Didn't know cutscene portraits were same characters as on map
+- 'That's why its called thieving cooks!'
+
+Bonus:
+- Thickets and forest look similar
+- Change thicket to be more clearly blocked off.
+
+Jack Murray:
+- Tries to attack with Hachi at 1 range
+- No crits against player
+- Selection phases aren't 100% clear yet
+- Advance Wars: move is a menu option rather than seeing action panel after movement.
+- Needs less dense forest sprite because
+- Thicket seems passable while mountain seems impassable
+- Most exciting thing: Running the restaurant
+- What are my objectives when controlling the restaurant?
+- Rather than capturing buildings and defeating enemies
+- You have cooking, seating people, etc.
+- Restaurant feels the most fascinating
+- Needs more restaurant
+- Dialogue is surprising with uncertain outcome
+- Tutorial needs customer who just orders something
+- Prepare the order
+- Overcooked: time constraint; time limit is common for these kinds of games.
+-- Kitchen; cooking takes certain number of turns to finish task
+-- Puzzle time constraints help stats matter. Some people good at prep food, others at cleaning, others at interfacing with customers.
+-- Strategic element is introduced
+-- What do you actually do in a restaurant and how do you systematize those things?
+-- Setting the menu is based on what chefs make as customers start rolling in.
+-- dont worry about combat
+-- next month is restaurant
+- Play Recettear
+- Moonlighter
+- Beastro
+- Amber Isles
+- 
+
+
+Grayson
+- Found gamebreaking bug sweet
+- Jacksmith
+- Hunting so you can have restaurant
+- Making weapons so people can go and fight
+- Fighting as narrative focus? 
+- Want to have a goal in the turn based system
+- 
+
+Rather than turn-based restaurant: 
+- Assign people to work restaurant then go out hunting. You get report of what happened.
+- Don't play out restaurant yourself
+- if restaurant is sticking point, flip that around and focus on combat.
+- the restaurant is a front for crime -> maybe tactical is finding snooping people
+- One of events is camp gets raided
+- controls for Bridge inside restaurant
+- Each day is either resources or restaurant management
+- Do I go hunting OR do I manage the restaurant
+- Dialogue: Nothing stands out immediately. Some of writing feels like 1990s localization. People say things in ways that feel really roundabout/bizarre.
+- Convo with dad felt like exposition.
+- Something about the Androticus mention is odd.
+- Relationship bt Bridge and Magpie is odd. Clinical therapy script.
+- Bridge should be uncomfortably silent? Not sure how to deal with emotions.
+- 'Very fair'. 'Very understandable'.
+- Make character dossier for characters
+-- What are their wants, needs, create guide on how people talk
+-- What are Bridge's mannerisms
+-- Read dialogue out loud
+-- 
+
+Rachel
+- Bridge died
+- Hachi again range problem
+- can't tell how many of each ingredients
+- Forests look like walls
+- Hard to tell movement range because of starting position
+- Level  design needs work
+- Add range to unit mouse-over summary
+- Restaurant 
