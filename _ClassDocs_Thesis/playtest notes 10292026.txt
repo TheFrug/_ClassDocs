@@ -58,7 +58,6 @@ Grayson
 - Making weapons so people can go and fight
 - Fighting as narrative focus? 
 - Want to have a goal in the turn based system
-- 
 
 Rather than turn-based restaurant: 
 - Assign people to work restaurant then go out hunting. You get report of what happened.
@@ -79,7 +78,6 @@ Rather than turn-based restaurant:
 -- What are their wants, needs, create guide on how people talk
 -- What are Bridge's mannerisms
 -- Read dialogue out loud
--- 
 
 Rachel
 - Bridge died
