@@ -1,0 +1,21 @@
+TODO-11092026
+- Fix buttons overlapping
+
+- Clean up presentation (looks like ass rn)
+
+-- Import font
+-- Typewriter text
+-- Sounds? I CAN DO THE ANIMAL CROSSING THING WOOOOOOOOO
+- Example scenarios:
+-- Compose a Limerick (fun one)
+-- Turn the AC (maybe being too cold/too hot creates raycast targets in the thought cabinet that disrupt conversation, simulating the distracting effects of overstimulation)
+--- Maybe its a dialogue option that appears during a lull in the conversation
+--- idk kinda hard to simulate the social acceptability of asking to change the AC
+-- Select new music (Flip through albums; can use real album covers as images)
+-- Provide map directions (needs separate paper UI element with instructions on it that can be enabled/disabled via button press)
+
+These can all be UI buttons and shit. Say we will try to convert these functions to 3D simulated visuals in the next month and spend the rest of semester writing and doing 3D stuff for fun.
+
+Systems questions:
+- How can we integrate the car controls into conversation? Can the player access them whenever? Does fiddling with them piss off the driver? That would be a good source of conflict/tension
+- Do disruptive thoughts have a different color to them? Probably, right? They should look visually harsher/meaner 

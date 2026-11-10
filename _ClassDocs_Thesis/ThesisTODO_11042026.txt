@@ -1,0 +1,7 @@
+- Add popularity bar to top left
+- Add gold with 6 digits under it
+- Add +Popularity feedback (called whenever popularity is granted, location can be either under the UI exp bar or over Bridge's head for simplicity; alt: spawn it over source event tile
+- Add +gold feedback for delivering food
+
+- Tutorial slides for restaurant
+- Dialogue to precede restaurant service with Mama Swan+Hachi

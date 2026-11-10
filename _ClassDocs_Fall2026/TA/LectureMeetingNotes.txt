@@ -1,0 +1,60 @@
+- History of games can be one slide
+- Slide of all techniques
+- Focus on the role of CG in enhancing animation for games
+- History of CG starts with experimental computer graphics
+Oscilloscope shapes > Text with some art > 8bit > 16bit > 32bit > 64bit 3D > Increasing 3D fidelity
+- Comparing limited vs creative solutions
+- Focus on linear relationship between games and technology
+
+I will go before Michael
+
+Shoot for 10 slides
+- Core principles:
+-- Games graphics follows technology, trailing behind in fidelity in order to maximize smoothnes of gameplay
+-- The games whose art survives the passage of time found creative ways to minimize the limitations of the technology
+- Slide on early pre-color pixel graphics (Oscilloscope -> Galaga)
+-- Describe how graphics work on electronic displays
+-- Vector (math) vs Raster (pixel grid) graphics
+-- Raster became more prominent as images are easier to fill
+- Pixel Art (2D) (8bit -> 16bit -> 32bit -> Digitized actors like Mortal Kombat)
+--- Limitations: Pixels on screen, color, frame rate
+-- Give birth to game-specific animation methods
+-- Sprites
+-- Reusable Tile-based graphics
+-- Animation cylces (run, shoot, jump)
+
+- Pixel Art Example: Megaman 2, Celeste
+
+- Early 3D (DKC -> 
+-- Polygonal modeling
+--- Polygon count restricted by hardware
+-- Texture mapping
+--- Add realism directly into game
+-- Skeletal animation
+--- More animations can be made quicker -> More character
+-- Real-time rendering
+- Early version of modern 3D animation pipeline
+- Games need to be optimized for real-rime preformance
+
+- Pre-rendered 3D
+
+- Realism
+- Conicides with the rise of video games as a storytelling medium
+-- Motion Capture
+--- Final Fantasy: The Spirits Within
+-- Shaders
+-- Advanced Facial animation
+--- More realism in faces means more convincing performances
+-- 
+
+- Where we are Now: Convergence of Games and Film
+-- Game engines are now being used as tools to produce animation and film
+
+
+- Machinima
+
+- Hey but we're still doing experimental stuff
+-- Cuphead
+-- Darkest Dungeon
+-- Fallout 1 stop motion
+-- 
