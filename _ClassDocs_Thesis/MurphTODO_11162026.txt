@@ -1,0 +1,30 @@
+== Map Sprites ==
+- 32x32 Hachi map sprite
+- 32x32 Bridge map sprite
+- 32x32 Magpie
+- 32x32 Zombie Brigand *
+- 32x32 Boar
+
+- 32x32 Restaurant patron template sprite
+-- 32x32 Asshole patron * 
+
+== Inventory Item Sprites ==
+- Item sprites for used inventory
+-- Iron Dagger 1x2
+-- Iron Axe 2x4 (with the bottom right and one above that being negative space)
+-- Iron Bow 2x3
+-- Shadowstep 1x2 (Cool shadowy knife)
+-- Vulnerary/potion 1x1
+-- Boar meat/Pork 1x1
+-- Rice bag 1x1
+
+== UI Sprites ==
+- Icon for angry customer
+- Sprite for gold numbers background
+-- Think: Money display in Stardew Valley
+- Stretchable UI panel
+- Player Phase box
+- Enemy Phase box
+
+TODO (SAI): Make the player phase/enemy phase turn boxes go away after short delay rather than button input
+
